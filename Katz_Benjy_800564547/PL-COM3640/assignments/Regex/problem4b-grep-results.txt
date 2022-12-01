@@ -1,0 +1,583 @@
+2019,Fall,AAS-100,Open,9:00 AM,9:50 AM,F
+2019,Fall,ACCY-20,Open,9:00 AM,9:50 AM,F
+2019,Fall,ACCY-202,Open,9:00 AM,9:50 AM,F
+2019,Fall,ACE-100,Open,9:00 AM,9:50 AM,F
+2019,Fall,ACE-251,Open,9:00 AM,9:50 AM,F
+2019,Fall,ACE-261,Open,9:00 AM,10:20 AM,F
+2019,Fall,ACE-360,Open,9:00 AM,10:50 AM,MW
+2019,Fall,ACE-520,Open (Restricted),9:00 AM,10:20 AM,MW
+2019,Fall,ACE-592,Open (Restricted),9:00 AM,11:50 AM,R
+2019,Fall,ACES-101,Open (Restricted),9:00 AM,9:50 AM,W
+2019,Fall,ACES-101,Open (Restricted),9:00 AM,9:50 AM,R
+2019,Fall,ACES-101,Open (Restricted),9:00 AM,9:50 AM,R
+2019,Fall,ACES-101,Open (Restricted),9:00 AM,9:50 AM,M
+2019,Fall,ADV-284,Open (Restricted),9:00 AM,10:20 AM,F
+2019,Fall,ADV-494,CrossListOpen (Restricted),9:00 AM,10:20 AM,MW
+2019,Fall,ADV-498,Open (Restricted),9:00 AM,10:50 AM,MWF
+2019,Fall,ADV-590,CrossListOpen (Restricted),9:00 AM,10:20 AM,MW
+2019,Fall,ADV-598,Open (Restricted),9:00 AM,9:50 AM,MW
+2019,Fall,AE-321,Open (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,AE-323,Open,9:00 AM,9:50 AM,MWF
+2019,Fall,AE-420,CrossListOpen,9:00 AM,9:50 AM,MWF
+2019,Fall,AE-420,CrossListOpen,9:00 AM,9:50 AM,MWF
+2019,Fall,AE-460,Open (Restricted),9:00 AM,9:50 AM,TR
+2019,Fall,AE-482,CrossListOpen,9:00 AM,10:50 AM,T
+2019,Fall,AE-482,CrossListOpen,9:00 AM,10:50 AM,R
+2019,Fall,AE-483,Open,9:00 AM,10:50 AM,M
+2019,Fall,AE-483,Open,9:00 AM,10:50 AM,W
+2019,Fall,AE-483,Open,9:00 AM,10:50 AM,F
+2019,Fall,AE-598,Open,9:00 AM,9:50 AM,MWF
+2019,Fall,AFRO-382,CrossListOpen,9:00 AM,11:50 AM,F
+2019,Fall,AFST-241,CrossListOpen,9:00 AM,10:20 AM,F
+2019,Fall,AFST-338,CrossListOpen,9:00 AM,9:50 AM,MWF
+2019,Fall,AGED-220,Open (Restricted),9:00 AM,10:50 AM,T
+2019,Fall,AGED-260,Open,9:00 AM,9:50 AM,MW
+2019,Fall,AGED-280,Open (Restricted),9:00 AM,10:50 AM,F
+2019,Fall,ANSC-222,Open,9:00 AM,9:50 AM,MWF
+2019,Fall,ANSC-350,Open,9:00 AM,9:50 AM,MWF
+2019,Fall,ANSC-452,Open,9:00 AM,9:50 AM,MWF
+2019,Fall,ANTH-105,Open,9:00 AM,9:50 AM,MWF
+2019,Fall,ANTH-143,CrossListOpen,9:00 AM,9:50 AM,T
+2019,Fall,ANTH-143,CrossListOpen,9:00 AM,9:50 AM,M
+2019,Fall,ANTH-230,Open,9:00 AM,9:50 AM,F
+2019,Fall,ANTH-241,Open,9:00 AM,9:50 AM,MWF
+2019,Fall,ANTH-407,Open,9:00 AM,10:20 AM,MW
+2019,Fall,ANTH-499,Open,9:00 AM,11:50 AM,R
+2019,Fall,ARCH-273,CrossListOpen (Restricted),9:00 AM,10:20 AM,W
+2019,Fall,ARCH-273,CrossListOpen (Restricted),9:00 AM,10:20 AM,F
+2019,Fall,ARCH-273,CrossListOpen (Restricted),9:00 AM,10:20 AM,M
+2019,Fall,ARCH-483,CrossListOpen,9:00 AM,10:20 AM,W
+2019,Fall,ARCH-483,CrossListOpen,9:00 AM,10:20 AM,F
+2019,Fall,ARCH-483,CrossListOpen (Restricted),9:00 AM,10:20 AM,M
+2019,Fall,ARCH-576,Open (Restricted),9:00 AM,11:50 AM,W
+2019,Fall,ARCH-593,Open,9:00 AM,10:20 AM,MW
+2019,Fall,ART-104,Open,9:00 AM,10:50 AM,MW
+2019,Fall,ART-140,Open,9:00 AM,11:40 AM,M
+2019,Fall,ART-140,Open,9:00 AM,11:40 AM,W
+2019,Fall,ARTD-101,Open (Restricted),9:00 AM,11:40 AM,MW
+2019,Fall,ARTD-20,CrossListOpen (Restricted),9:00 AM,10:20 AM,F
+2019,Fall,ARTD-20,CrossListOpen (Restricted),9:00 AM,11:40 AM,MW
+2019,Fall,ARTD-270,Open (Restricted),9:00 AM,11:40 AM,MW
+2019,Fall,ARTD-362,Open (Restricted),9:00 AM,11:40 AM,MW
+2019,Fall,ARTD-503,Open,9:00 AM,11:40 AM,MW
+2019,Fall,ARTD-570,Open,9:00 AM,11:40 AM,W
+2019,Fall,ARTE-203,Open,9:00 AM,11:40 AM,M
+2019,Fall,ARTF-106,Open (Restricted),9:00 AM,11:40 AM,MW
+2019,Fall,ARTH-440,CrossListOpen (Restricted),9:00 AM,10:20 AM,MW
+2019,Fall,ARTH-440,CrossListOpen (Restricted),9:00 AM,10:20 AM,MW
+2019,Fall,ARTS-210,Open (Restricted),9:00 AM,11:40 AM,MW
+2019,Fall,ARTS-230,Open,9:00 AM,11:40 AM,MW
+2019,Fall,ARTS-251,Open (Restricted),9:00 AM,11:40 AM,MW
+2019,Fall,ARTS-252,Open (Restricted),9:00 AM,11:40 AM,MW
+2019,Fall,ARTS-299,Open (Restricted),9:00 AM,11:40 AM,MW
+2019,Fall,ARTS-499,CrossListOpen (Restricted),9:00 AM,11:40 AM,F
+2019,Fall,ARTS-499,CrossListOpen (Restricted),9:00 AM,11:40 AM,F
+2019,Fall,ARTS-595,Open (Restricted),9:00 AM,11:40 AM,F
+2019,Fall,ASTR-121,Open,9:00 AM,9:50 AM,F
+2019,Fall,ATMS-305,Open,9:00 AM,9:50 AM,MWF
+2019,Fall,ATMS-500,Open,9:00 AM,9:50 AM,MWF
+2019,Fall,BADM-540,CrossListOpen (Restricted),9:00 AM,11:50 AM,F
+2019,Fall,BADM-540,CrossListOpen (Restricted),9:00 AM,11:50 AM,F
+2019,Fall,BIOE-504,Open (Restricted),9:00 AM,10:50 AM,MW
+2019,Fall,BIOE-570,Open (Restricted),9:00 AM,10:50 AM,F
+2019,Fall,BTW-250,Open (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,BTW-261,Open (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,BUS-101,Open (Restricted),9:00 AM,10:50 AM,F
+2019,Fall,BUS-101,Open (Restricted),9:00 AM,10:50 AM,F
+2019,Fall,BUS-101,Open (Restricted),9:00 AM,10:50 AM,F
+2019,Fall,BUS-101,Open (Restricted),9:00 AM,10:50 AM,F
+2019,Fall,CB-449,CrossListOpen,9:00 AM,9:50 AM,MWF
+2019,Fall,CEE-380,Open,9:00 AM,9:50 AM,MWF
+2019,Fall,CEE-416,CrossListOpen,9:00 AM,9:50 AM,MWF
+2019,Fall,CEE-416,CrossListOpen (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,CEE-442,Open,9:00 AM,9:50 AM,MF
+2019,Fall,CEE-590,Open,9:00 AM,9:50 AM,MWF
+2019,Fall,CHBE-424,Open,9:00 AM,9:50 AM,MWF
+2019,Fall,CHBE-471,CrossListOpen (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,CHBE-594,CrossListOpen (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,CHEM-101,Open,9:00 AM,9:50 AM,F
+2019,Fall,CHEM-101,Open,9:00 AM,9:50 AM,F
+2019,Fall,CHEM-101,Open,9:00 AM,9:50 AM,F
+2019,Fall,CHEM-102,Open (Restricted),9:00 AM,9:50 AM,WF
+2019,Fall,CHEM-102,Open (Restricted),9:00 AM,10:50 AM,WF
+2019,Fall,CHEM-102,Open,9:00 AM,9:50 AM,TR
+2019,Fall,CHEM-102,Open,9:00 AM,9:50 AM,TR
+2019,Fall,CHEM-102,Open,9:00 AM,9:50 AM,WF
+2019,Fall,CHEM-102,Open (Restricted),9:00 AM,10:50 AM,WF
+2019,Fall,CHEM-102,Open,9:00 AM,9:50 AM,TR
+2019,Fall,CHEM-102,Open,9:00 AM,9:50 AM,TR
+2019,Fall,CHEM-104,Open,9:00 AM,9:50 AM,MWF
+2019,Fall,CHEM-104,Open,9:00 AM,9:50 AM,T
+2019,Fall,CHEM-104,Open (Restricted),9:00 AM,10:50 AM,TR
+2019,Fall,CHEM-199,Open (Restricted),9:00 AM,10:50 AM,F
+2019,Fall,CHEM-199,Open (Restricted),9:00 AM,10:50 AM,T
+2019,Fall,CHEM-202,Open,9:00 AM,9:50 AM,T
+2019,Fall,CHEM-202,Open (Restricted),9:00 AM,10:50 AM,TR
+2019,Fall,CHEM-232,Open,9:00 AM,9:50 AM,T
+2019,Fall,CHEM-232,Open,9:00 AM,9:50 AM,R
+2019,Fall,CHEM-236,Open (Restricted),9:00 AM,10:50 AM,R
+2019,Fall,CHEM-236,Open,9:00 AM,9:50 AM,MWF
+2019,Fall,CHEM-237,Open,9:00 AM,9:50 AM,T
+2019,Fall,CHEM-312,Open,9:00 AM,9:50 AM,MWF
+2019,Fall,CLCV-115,Open,9:00 AM,9:50 AM,F
+2019,Fall,CMN-101,Open,9:00 AM,9:50 AM,MWF
+2019,Fall,CMN-101,Open,9:00 AM,9:50 AM,MWF
+2019,Fall,CMN-101,Open,9:00 AM,9:50 AM,MWF
+2019,Fall,CMN-102,Open,9:00 AM,9:50 AM,M
+2019,Fall,CMN-102,Open,9:00 AM,9:50 AM,W
+2019,Fall,CMN-111,Open (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,CMN-111,Open (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,CMN-211,Open (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,CMN-215,Open,9:00 AM,9:50 AM,MWF
+2019,Fall,CMN-220,Open,9:00 AM,9:50 AM,MWF
+2019,Fall,CMN-368,Open,9:00 AM,9:50 AM,MW
+2019,Fall,CPSC-112,Open,9:00 AM,10:50 AM,W
+2019,Fall,CPSC-270,CrossListOpen,9:00 AM,9:50 AM,MW
+2019,Fall,CPSC-433,CrossListOpen,9:00 AM,9:50 AM,MWF
+2019,Fall,CS-101,Open,9:00 AM,9:50 AM,MW
+2019,Fall,CS-101,Open,9:00 AM,10:50 AM,R
+2019,Fall,CS-101,Open,9:00 AM,10:50 AM,F
+2019,Fall,CS-105,Open,9:00 AM,10:45 AM,F
+2019,Fall,CS-125,Open,9:00 AM,9:50 AM,T
+2019,Fall,CS-125,Open,9:00 AM,9:50 AM,T
+2019,Fall,CS-173,Open,9:00 AM,9:50 AM,F
+2019,Fall,CS-173,Open,9:00 AM,9:50 AM,R
+2019,Fall,CS-173,Open,9:00 AM,9:50 AM,R
+2019,Fall,CS-225,Open,9:00 AM,10:50 AM,R
+2019,Fall,CS-225,Open,9:00 AM,10:50 AM,F
+2019,Fall,CS-225,Open,9:00 AM,10:50 AM,F
+2019,Fall,CS-241,Open,9:00 AM,10:20 AM,R
+2019,Fall,CS-241,Open (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,CS-374,CrossListOpen (Restricted),9:00 AM,9:50 AM,WF
+2019,Fall,CS-374,CrossListOpen,9:00 AM,9:50 AM,WF
+2019,Fall,CS-418,CrossListOpen (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,CS-418,CrossListOpen (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,CS-440,CrossListOpen (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,CS-440,CrossListOpen (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,CSE-451,CrossListOpen,9:00 AM,9:50 AM,MWF
+2019,Fall,CSE-560,CrossListOpen,9:00 AM,10:50 AM,MW
+2019,Fall,CWL-114,Open,9:00 AM,9:50 AM,F
+2019,Fall,DANC-100,Open,9:00 AM,10:20 AM,W
+2019,Fall,DANC-100,Open,9:00 AM,10:20 AM,M
+2019,Fall,DANC-107,Open,9:00 AM,10:20 AM,TR
+2019,Fall,DANC-160,Open (Restricted),9:00 AM,10:50 AM,MWF
+2019,Fall,DANC-199,CrossListOpen (Restricted),9:00 AM,10:20 AM,TR
+2019,Fall,DANC-261,CrossListOpen (Restricted),9:00 AM,10:20 AM,TR
+2019,Fall,DANC-266,CrossListOpen,9:00 AM,10:20 AM,
+2019,Fall,DANC-266,CrossListOpen,9:00 AM,10:20 AM,TR
+2019,Fall,DANC-267,CrossListOpen (Restricted),9:00 AM,10:20 AM,MW
+2019,Fall,DANC-361,CrossListOpen (Restricted),9:00 AM,10:20 AM,TR
+2019,Fall,DANC-366,CrossListOpen (Restricted),9:00 AM,10:20 AM,TR
+2019,Fall,DANC-367,CrossListOpen (Restricted),9:00 AM,10:20 AM,MW
+2019,Fall,DANC-400,Open,9:00 AM,10:20 AM,F
+2019,Fall,DANC-401,Open (Restricted),9:00 AM,10:20 AM,F
+2019,Fall,DANC-461,CrossListOpen (Restricted),9:00 AM,10:20 AM,TR
+2019,Fall,DANC-467,CrossListOpen (Restricted),9:00 AM,10:20 AM,MW
+2019,Fall,DANC-495,Open (Restricted),9:00 AM,10:20 AM,F
+2019,Fall,DANC-560,Open (Restricted),9:00 AM,10:50 AM,TR
+2019,Fall,EALC-120,CrossListOpen,9:00 AM,9:50 AM,F
+2019,Fall,EALC-250,Open,9:00 AM,9:50 AM,F
+2019,Fall,EALC-250,Open,9:00 AM,9:50 AM,R
+2019,Fall,ECE-110,CrossListOpen (Restricted),9:00 AM,11:50 AM,T
+2019,Fall,ECE-110,CrossListOpen (Restricted),9:00 AM,11:50 AM,R
+2019,Fall,ECE-110,Open (Restricted),9:00 AM,9:50 AM,MW
+2019,Fall,ECE-110,CrossListOpen (Restricted),9:00 AM,11:50 AM,T
+2019,Fall,ECE-110,CrossListOpen (Restricted),9:00 AM,11:50 AM,W
+2019,Fall,ECE-110,CrossListOpen (Restricted),9:00 AM,11:50 AM,R
+2019,Fall,ECE-110,CrossListOpen (Restricted),9:00 AM,11:50 AM,F
+2019,Fall,ECE-110,CrossListOpen (Restricted),9:00 AM,11:50 AM,M
+2019,Fall,ECE-120,Open (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,ECE-220,Open (Restricted),9:00 AM,9:50 AM,F
+2019,Fall,ECE-311,Open (Restricted),9:00 AM,10:50 AM,T
+2019,Fall,ECE-313,CrossListOpen (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,ECE-313,CrossListOpen (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,ECE-314,Open (Restricted),9:00 AM,10:50 AM,R
+2019,Fall,ECE-374,CrossListOpen,9:00 AM,9:50 AM,WF
+2019,Fall,ECE-374,CrossListOpen,9:00 AM,9:50 AM,WF
+2019,Fall,ECE-385,Open (Restricted),9:00 AM,11:50 AM,W
+2019,Fall,ECE-391,Open (Restricted),9:00 AM,9:50 AM,W
+2019,Fall,ECE-420,Open,9:00 AM,10:50 AM,W
+2019,Fall,ECE-437,Open,9:00 AM,11:50 AM,T
+2019,Fall,ECE-437,Open,9:00 AM,11:50 AM,W
+2019,Fall,ECE-444,Open,9:00 AM,9:50 AM,MWF
+2019,Fall,ECE-447,Open,9:00 AM,11:50 AM,W
+2019,Fall,ECE-448,CrossListOpen (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,ECE-448,CrossListOpen (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,ECE-453,Open,9:00 AM,11:50 AM,T
+2019,Fall,ECE-453,Open,9:00 AM,11:50 AM,R
+2019,Fall,ECE-453,Open,9:00 AM,9:50 AM,MWF
+2019,Fall,ECE-463,Open,9:00 AM,11:50 AM,W
+2019,Fall,ECE-470,CrossListOpen,9:00 AM,10:50 AM,T
+2019,Fall,ECE-470,CrossListOpen,9:00 AM,10:50 AM,R
+2019,Fall,ECE-486,Open,9:00 AM,11:50 AM,T
+2019,Fall,ECE-486,Open,9:00 AM,11:50 AM,R
+2019,Fall,ECE-486,Open,9:00 AM,11:50 AM,W
+2019,Fall,ECON-102,Open,9:00 AM,9:50 AM,F
+2019,Fall,ECON-202,Open,9:00 AM,9:50 AM,W
+2019,Fall,ECON-302,Open,9:00 AM,9:50 AM,M
+2019,Fall,ECON-302,Open,9:00 AM,9:50 AM,M
+2019,Fall,ENG-100,Open (Restricted),9:00 AM,9:50 AM,MW
+2019,Fall,ENG-100,Open (Restricted),9:00 AM,9:50 AM,TR
+2019,Fall,ENG-110,CrossListOpen (Restricted),9:00 AM,9:50 AM,MW
+2019,Fall,ENVS-480,CrossListOpen,9:00 AM,9:50 AM,MWF
+2019,Fall,EPS-590,Open,9:00 AM,11:50 AM,R
+2019,Fall,EPSY-20,Open,9:00 AM,10:50 AM,F
+2019,Fall,EPSY-20,Open,9:00 AM,10:50 AM,F
+2019,Fall,EPSY-20,Open,9:00 AM,10:50 AM,F
+2019,Fall,EPSY-403,CrossListOpen (Restricted),9:00 AM,10:50 AM,TR
+2019,Fall,EPSY-403,CrossListOpen (Restricted),9:00 AM,10:50 AM,TR
+2019,Fall,EPSY-420,CrossListOpen,9:00 AM,11:50 AM,T
+2019,Fall,EPSY-430,CrossListOpen (Restricted),9:00 AM,11:50 AM,R
+2019,Fall,EPSY-492,Open,9:00 AM,11:50 AM,T
+2019,Fall,EPSY-520,CrossListOpen,9:00 AM,11:50 AM,F
+2019,Fall,EPSY-520,CrossListOpen,9:00 AM,11:50 AM,F
+2019,Fall,EPSY-582,Open,9:00 AM,10:50 AM,TR
+2019,Fall,EPSY-590,Open,9:00 AM,11:50 AM,F
+2019,Fall,ESE-208,CrossListOpen,9:00 AM,9:50 AM,MWF
+2019,Fall,ESE-379,CrossListOpen,9:00 AM,10:50 AM,R
+2019,Fall,ESE-379,CrossListOpen,9:00 AM,10:50 AM,F
+2019,Fall,ESL-111,Open (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,ESL-111,Open (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,FIN-221,Open,9:00 AM,9:50 AM,F
+2019,Fall,FIN-580,Open (Restricted),9:00 AM,9:50 AM,F
+2019,Fall,FIN-580,Open (Restricted),9:00 AM,10:30 AM,F
+2019,Fall,FR-101,Open,9:00 AM,9:50 AM,MTWR
+2019,Fall,FSHN-466,Open,9:00 AM,11:50 AM,F
+2019,Fall,FSHN-480,CrossListOpen,9:00 AM,9:50 AM,MWF
+2019,Fall,GCL-128,Open (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,GEOG-280,CrossListOpen,9:00 AM,9:50 AM,MWF
+2019,Fall,GEOG-379,CrossListOpen,9:00 AM,10:50 AM,R
+2019,Fall,GEOG-379,CrossListOpen,9:00 AM,10:50 AM,F
+2019,Fall,GEOG-408,Open,9:00 AM,10:20 AM,R
+2019,Fall,GEOG-408,Open,9:00 AM,10:20 AM,T
+2019,Fall,GEOL-208,CrossListOpen,9:00 AM,9:50 AM,MWF
+2019,Fall,GEOL-432,Open,9:00 AM,11:50 AM,T
+2019,Fall,GER-102,Open,9:00 AM,9:50 AM,MTWR
+2019,Fall,GER-403,CrossListOpen,9:00 AM,9:50 AM,MWF
+2019,Fall,GRK-101,CrossListOpen,9:00 AM,9:50 AM,MWF
+2019,Fall,HDFS-143,CrossListOpen,9:00 AM,9:50 AM,T
+2019,Fall,HDFS-143,CrossListOpen,9:00 AM,9:50 AM,M
+2019,Fall,HDFS-324,CrossListOpen,9:00 AM,11:50 AM,F
+2019,Fall,HIST-120,CrossListOpen,9:00 AM,9:50 AM,F
+2019,Fall,HIST-141,Open,9:00 AM,9:50 AM,F
+2019,Fall,HIST-141,Open,9:00 AM,9:50 AM,F
+2019,Fall,HIST-142,CrossListOpen,9:00 AM,9:50 AM,MW
+2019,Fall,HIST-200,Open,9:00 AM,10:20 AM,MW
+2019,Fall,HIST-310,Open,9:00 AM,9:50 AM,MWF
+2019,Fall,HIST-338,CrossListOpen,9:00 AM,9:50 AM,MWF
+2019,Fall,HORT-105,Open,9:00 AM,10:50 AM,R
+2019,Fall,HORT-362,Open,9:00 AM,9:50 AM,MWF
+2019,Fall,HRD-490,CrossListOpen (Restricted),9:00 AM,11:50 AM,W
+2019,Fall,HRD-490,CrossListOpen (Restricted),9:00 AM,11:50 AM,W
+2019,Fall,HUM-395,Open (Restricted),9:00 AM,10:20 AM,TR
+2019,Fall,IB-150,Open,9:00 AM,9:50 AM,F
+2019,Fall,IB-151,Open,9:00 AM,11:50 AM,W
+2019,Fall,IB-204,Open,9:00 AM,11:50 AM,W
+2019,Fall,IB-220,CrossListOpen,9:00 AM,9:50 AM,MW
+2019,Fall,IB-299,Open,9:00 AM,10:00 AM,F
+2019,Fall,IB-303,Open,9:00 AM,11:50 AM,T
+2019,Fall,IB-401,Open,9:00 AM,11:50 AM,F
+2019,Fall,IB-401,Open,9:00 AM,9:50 AM,MW
+2019,Fall,IB-401,Open,9:00 AM,9:50 AM,MW
+2019,Fall,IB-430,Open,9:00 AM,11:50 AM,W
+2019,Fall,IB-468,Open,9:00 AM,9:50 AM,MW
+2019,Fall,IE-498,CrossListOpen (Restricted),9:00 AM,10:20 AM,MW
+2019,Fall,IE-598,CrossListOpen (Restricted),9:00 AM,10:20 AM,MW
+2019,Fall,INFO-202,CrossListOpen,9:00 AM,9:50 AM,F
+2019,Fall,IS-202,CrossListOpen,9:00 AM,9:50 AM,F
+2019,Fall,IS-418,CrossListOpen (Restricted),9:00 AM,11:50 AM,W
+2019,Fall,IS-418,CrossListOpen (Restricted),9:00 AM,11:50 AM,W
+2019,Fall,IS-451,Open (Restricted),9:00 AM,11:50 AM,T
+2019,Fall,IS-490,CrossListOpen (Restricted),9:00 AM,11:50 AM,F
+2019,Fall,IS-490,CrossListOpen (Restricted),9:00 AM,11:50 AM,F
+2019,Fall,IS-503,Open (Restricted),9:00 AM,11:50 AM,F
+2019,Fall,IS-506,Open (Restricted),9:00 AM,11:50 AM,M
+2019,Fall,IS-518,Open (Restricted),9:00 AM,11:50 AM,W
+2019,Fall,IS-543,Open (Restricted),9:00 AM,11:50 AM,T
+2019,Fall,IS-543,Open (Restricted),9:00 AM,11:50 AM,R
+2019,Fall,IS-562,Open (Restricted),9:00 AM,11:50 AM,T
+2019,Fall,IS-567,Open (Restricted),9:00 AM,11:50 AM,T
+2019,Fall,IS-590,Open (Restricted),9:00 AM,11:50 AM,M
+2019,Fall,IS-590,Open (Restricted),9:00 AM,11:50 AM,W
+2019,Fall,JAPN-20,Open (Restricted),9:00 AM,9:50 AM,MTWRF
+2019,Fall,JOUR-199,CrossListOpen,9:00 AM,11:50 AM,F
+2019,Fall,JOUR-220,Open,9:00 AM,10:50 AM,TR
+2019,Fall,JOUR-340,Open (Restricted),9:00 AM,11:50 AM,TR
+2019,Fall,JOUR-340,Open (Restricted),9:00 AM,11:50 AM,MW
+2019,Fall,JOUR-445,Open (Restricted),9:00 AM,9:50 AM,M
+2019,Fall,JOUR-480,CrossListOpen (Restricted),9:00 AM,11:50 AM,F
+2019,Fall,KIN-104,Open,9:00 AM,9:50 AM,MWF
+2019,Fall,KIN-109,Open,9:00 AM,9:50 AM,TR
+2019,Fall,KIN-262,CrossListOpen,9:00 AM,9:50 AM,F
+2019,Fall,KIN-340,Open,9:00 AM,10:50 AM,F
+2019,Fall,KIN-355,Open (Restricted),9:00 AM,9:50 AM,MW
+2019,Fall,LA-452,CrossListOpen,9:00 AM,10:50 AM,MW
+2019,Fall,LA-452,CrossListOpen,9:00 AM,10:50 AM,MW
+2019,Fall,LA-506,Open,9:00 AM,11:50 AM,W
+2019,Fall,LAS-101,Open (Restricted),9:00 AM,10:20 AM,F
+2019,Fall,LAS-122,Open (Restricted),9:00 AM,9:50 AM,T
+2019,Fall,LAW-601,Open (Restricted),9:00 AM,10:15 AM,R
+2019,Fall,LAW-601,Open (Restricted),9:00 AM,10:15 AM,R
+2019,Fall,LAW-635,Open (Restricted),9:00 AM,10:15 AM,TW
+2019,Fall,LAW-635,Open (Restricted),9:00 AM,10:15 AM,TW
+2019,Fall,LAW-643,Open (Restricted),9:00 AM,9:50 AM,MTW
+2019,Fall,LAW-643,Open (Restricted),9:00 AM,9:50 AM,MTW
+2019,Fall,LAW-647,Open (Restricted),9:00 AM,10:15 AM,MTW
+2019,Fall,LAW-647,Open (Restricted),9:00 AM,10:15 AM,MTW
+2019,Fall,LAW-680,Open (Restricted),9:00 AM,10:15 AM,WR
+2019,Fall,LAW-682,Open (Restricted),9:00 AM,10:15 AM,MT
+2019,Fall,LAW-682,Open (Restricted),9:00 AM,10:15 AM,MT
+2019,Fall,LAW-796,Open (Restricted),9:00 AM,10:15 AM,MT
+2019,Fall,LING-490,CrossListOpen,9:00 AM,9:50 AM,MWF
+2019,Fall,LING-490,CrossListOpen,9:00 AM,9:50 AM,MWF
+2019,Fall,LLS-473,CrossListOpen (Restricted),9:00 AM,11:20 AM,W
+2019,Fall,LLS-473,CrossListOpen (Restricted),9:00 AM,11:20 AM,W
+2019,Fall,MACS-100,Open,9:00 AM,9:50 AM,F
+2019,Fall,MACS-202,CrossListOpen,9:00 AM,9:50 AM,F
+2019,Fall,MACS-265,Open,9:00 AM,9:50 AM,W
+2019,Fall,MATH-101,Open,9:00 AM,9:50 AM,TR
+2019,Fall,MATH-103,Open,9:00 AM,9:50 AM,F
+2019,Fall,MATH-112,Open,9:00 AM,9:50 AM,R
+2019,Fall,MATH-112,Open,9:00 AM,9:50 AM,F
+2019,Fall,MATH-112,Open (Restricted),9:00 AM,10:50 AM,R
+2019,Fall,MATH-112,Open,9:00 AM,9:50 AM,MW
+2019,Fall,MATH-115,Open,9:00 AM,9:50 AM,T
+2019,Fall,MATH-115,Open,9:00 AM,9:50 AM,T
+2019,Fall,MATH-220,Open (Restricted),9:00 AM,10:50 AM,TR
+2019,Fall,MATH-220,Open,9:00 AM,9:50 AM,TR
+2019,Fall,MATH-220,Open,9:00 AM,9:50 AM,TR
+2019,Fall,MATH-220,Open,9:00 AM,9:50 AM,TR
+2019,Fall,MATH-221,Open,9:00 AM,9:50 AM,WF
+2019,Fall,MATH-221,Open,9:00 AM,9:50 AM,WF
+2019,Fall,MATH-221,Open,9:00 AM,9:50 AM,TR
+2019,Fall,MATH-221,Open (Restricted),9:00 AM,10:50 AM,WF
+2019,Fall,MATH-221,Open (Restricted),9:00 AM,10:50 AM,WF
+2019,Fall,MATH-221,Open,9:00 AM,9:50 AM,WF
+2019,Fall,MATH-231,Open (Restricted),9:00 AM,10:50 AM,TR
+2019,Fall,MATH-231,Open,9:00 AM,9:50 AM,TR
+2019,Fall,MATH-231,Open,9:00 AM,9:50 AM,TR
+2019,Fall,MATH-231,Open (Restricted),9:00 AM,9:50 AM,MW
+2019,Fall,MATH-231,Open,9:00 AM,9:50 AM,TR
+2019,Fall,MATH-231,Open,9:00 AM,9:50 AM,TR
+2019,Fall,MATH-231,Open (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,MATH-241,Open (Restricted),9:00 AM,10:50 AM,TR
+2019,Fall,MATH-241,Open,9:00 AM,9:50 AM,TR
+2019,Fall,MATH-241,Open,9:00 AM,9:50 AM,MWF
+2019,Fall,MATH-241,Open,9:00 AM,9:50 AM,TR
+2019,Fall,MATH-241,Open,9:00 AM,9:50 AM,TR
+2019,Fall,MATH-241,Open,9:00 AM,9:50 AM,TR
+2019,Fall,MATH-241,Open,9:00 AM,9:50 AM,TR
+2019,Fall,MATH-286,Open (Restricted),9:00 AM,9:50 AM,MWRF
+2019,Fall,MATH-347,Open,9:00 AM,9:50 AM,MWF
+2019,Fall,MATH-362,CrossListOpen (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,MATH-362,CrossListOpen (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,MATH-402,CrossListOpen,9:00 AM,9:50 AM,MWF
+2019,Fall,MATH-405,CrossListOpen (Restricted),9:00 AM,10:20 AM,MW
+2019,Fall,MATH-415,Open,9:00 AM,9:50 AM,R
+2019,Fall,MATH-415,Open,9:00 AM,9:50 AM,T
+2019,Fall,MATH-415,Open,9:00 AM,9:50 AM,MWF
+2019,Fall,MATH-441,CrossListOpen,9:00 AM,9:50 AM,MWF
+2019,Fall,MATH-464,CrossListOpen (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,MATH-520,Open (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,MATH-542,Open (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,MCB-101,Open,9:00 AM,10:50 AM,MW
+2019,Fall,MCB-150,Open,9:00 AM,9:50 AM,M
+2019,Fall,MCB-150,Open,9:00 AM,9:50 AM,T
+2019,Fall,MCB-150,Open,9:00 AM,9:50 AM,R
+2019,Fall,MCB-151,Open,9:00 AM,11:50 AM,T
+2019,Fall,MCB-199,Open (Restricted),9:00 AM,10:50 AM,R
+2019,Fall,MCB-250,Open,9:00 AM,9:50 AM,T
+2019,Fall,MCB-251,Open,9:00 AM,12:50 PM,T
+2019,Fall,MCB-251,Open,9:00 AM,12:50 PM,T
+2019,Fall,MCB-251,Open,9:00 AM,12:50 PM,T
+2019,Fall,MCB-251,Open,9:00 AM,12:50 PM,W
+2019,Fall,MCB-251,Open,9:00 AM,12:50 PM,R
+2019,Fall,MCB-251,Open,9:00 AM,12:50 PM,R
+2019,Fall,MCB-251,Open,9:00 AM,12:50 PM,F
+2019,Fall,MCB-253,Open,9:00 AM,12:50 PM,T
+2019,Fall,MCB-253,Open,9:00 AM,12:50 PM,R
+2019,Fall,MCB-299,Open (Restricted),9:00 AM,10:50 AM,T
+2019,Fall,MCB-300,Open,9:00 AM,9:50 AM,MWF
+2019,Fall,MCB-354,Open,9:00 AM,9:50 AM,R
+2019,Fall,MCB-354,Open (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,MCB-364,Open (Restricted),9:00 AM,12:50 PM,W
+2019,Fall,MCB-501,Open,9:00 AM,10:20 AM,F
+2019,Fall,MCB-502,Open,9:00 AM,10:20 AM,F
+2019,Fall,ME-310,Open (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,ME-402,CrossListOpen (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,ME-402,CrossListOpen (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,ME-445,CrossListOpen,9:00 AM,10:50 AM,T
+2019,Fall,ME-445,CrossListOpen,9:00 AM,10:50 AM,R
+2019,Fall,ME-461,CrossListOpen,9:00 AM,9:50 AM,MW
+2019,Fall,ME-471,CrossListOpen,9:00 AM,9:50 AM,MWF
+2019,Fall,ME-471,CrossListOpen,9:00 AM,9:50 AM,MWF
+2019,Fall,ME-498,CrossListOpen (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,ME-498,CrossListOpen (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,MSE-401,Open,9:00 AM,9:50 AM,MWF
+2019,Fall,MSE-500,Open (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,MUS-101,Open (Restricted),9:00 AM,9:50 AM,F
+2019,Fall,MUS-101,Open (Restricted),9:00 AM,9:50 AM,F
+2019,Fall,MUS-101,Open (Restricted),9:00 AM,9:50 AM,F
+2019,Fall,MUS-101,Open (Restricted),9:00 AM,9:50 AM,F
+2019,Fall,MUS-101,Open (Restricted),9:00 AM,9:50 AM,F
+2019,Fall,MUS-101,Open (Restricted),9:00 AM,9:50 AM,F
+2019,Fall,MUS-101,Open (Restricted),9:00 AM,9:50 AM,MW
+2019,Fall,MUS-133,Open,9:00 AM,9:50 AM,W
+2019,Fall,MUS-199,CrossListOpen (Restricted),9:00 AM,9:50 AM,MW
+2019,Fall,MUS-20,Open (Restricted),9:00 AM,9:50 AM,F
+2019,Fall,MUS-20,Open (Restricted),9:00 AM,9:50 AM,F
+2019,Fall,MUS-242,Open (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,MUS-242,Open (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,MUS-350,Open (Restricted),9:00 AM,10:50 AM,MWF
+2019,Fall,MUS-368,Open (Restricted),9:00 AM,9:50 AM,MW
+2019,Fall,MUS-464,Open (Restricted),9:00 AM,9:50 AM,TR
+2019,Fall,MUS-499,CrossListOpen (Restricted),9:00 AM,9:50 AM,MW
+2019,Fall,MUS-499,Open (Restricted),9:00 AM,9:50 AM,MW
+2019,Fall,MUS-499,Open,9:00 AM,11:50 AM,F
+2019,Fall,MUS-565,Open (Restricted),9:00 AM,10:50 AM,MW
+2019,Fall,MUSE-200,Open,9:00 AM,9:50 AM,MWF
+2019,Fall,NPRE-446,Open,9:00 AM,9:50 AM,MWF
+2019,Fall,NPRE-451,Open (Restricted),9:00 AM,9:50 AM,MW
+2019,Fall,NPRE-501,Open (Restricted),9:00 AM,10:50 AM,TR
+2019,Fall,NRES-219,Open (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,NRES-270,CrossListOpen,9:00 AM,9:50 AM,MW
+2019,Fall,NS-101,Open,9:00 AM,9:50 AM,TR
+2019,Fall,NS-305,Open,9:00 AM,10:40 AM,TR
+2019,Fall,NS-308,Open,9:00 AM,9:50 AM,TR
+2019,Fall,PATH-519,CrossListOpen,9:00 AM,12:00 PM,W
+2019,Fall,PHIL-100,Open,9:00 AM,9:50 AM,F
+2019,Fall,PHIL-100,Open,9:00 AM,9:50 AM,F
+2019,Fall,PHIL-100,Open,9:00 AM,9:50 AM,MW
+2019,Fall,PHIL-107,Open,9:00 AM,9:50 AM,MWF
+2019,Fall,PHIL-110,CrossListOpen,9:00 AM,9:50 AM,TR
+2019,Fall,PHYS-100,Open,9:00 AM,9:50 AM,T
+2019,Fall,PHYS-100,Open,9:00 AM,9:50 AM,W
+2019,Fall,PHYS-100,Open,9:00 AM,9:50 AM,R
+2019,Fall,PHYS-211,Open,9:00 AM,9:50 AM,TR
+2019,Fall,PHYS-213,Open,9:00 AM,9:50 AM,MW
+2019,Fall,PHYS-214,Open,9:00 AM,9:50 AM,MWF
+2019,Fall,PHYS-435,Open (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,PHYS-436,Open (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,PHYS-598,Open (Restricted),9:00 AM,10:20 AM,MT
+2019,Fall,PS-101,Open,9:00 AM,9:50 AM,F
+2019,Fall,PS-20,CrossListOpen,9:00 AM,9:50 AM,F
+2019,Fall,PS-20,CrossListOpen,9:00 AM,9:50 AM,F
+2019,Fall,PS-230,Open,9:00 AM,9:50 AM,F
+2019,Fall,PS-280,Open,9:00 AM,9:50 AM,MW
+2019,Fall,PSYC-100,Open,9:00 AM,9:50 AM,MWF
+2019,Fall,PSYC-100,Open,9:00 AM,9:50 AM,MWF
+2019,Fall,PSYC-102,Open (Restricted),9:00 AM,9:50 AM,W
+2019,Fall,PSYC-102,Open (Restricted),9:00 AM,9:50 AM,T
+2019,Fall,PSYC-102,Open (Restricted),9:00 AM,9:50 AM,R
+2019,Fall,PSYC-102,Open (Restricted),9:00 AM,9:50 AM,F
+2019,Fall,PSYC-20,Open,9:00 AM,9:50 AM,MWF
+2019,Fall,PSYC-235,Open,9:00 AM,9:50 AM,R
+2019,Fall,PSYC-311,Open,9:00 AM,11:50 AM,W
+2019,Fall,PSYC-311,Open,9:00 AM,11:50 AM,T
+2019,Fall,PSYC-333,Open,9:00 AM,10:50 AM,TR
+2019,Fall,PSYC-420,CrossListOpen,9:00 AM,11:50 AM,T
+2019,Fall,PSYC-593,Open (Restricted),9:00 AM,10:50 AM,W
+2019,Fall,PSYC-593,Open (Restricted),9:00 AM,10:50 AM,T
+2019,Fall,REL-110,CrossListOpen,9:00 AM,9:50 AM,TR
+2019,Fall,REL-111,CrossListOpen,9:00 AM,9:50 AM,MWF
+2019,Fall,RHET-105,Open (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,RHET-105,Open (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,RHET-105,Open (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,RHET-105,Open (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,RHET-105,Open (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,RHET-105,Open (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,RST-200,Open (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,RST-255,Open (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,RST-512,Open (Restricted),9:00 AM,10:40 AM,MW
+2019,Fall,SCAN-101,Open,9:00 AM,9:50 AM,MTWR
+2019,Fall,SE-101,Open,9:00 AM,9:50 AM,W
+2019,Fall,SE-320,Open,9:00 AM,10:50 AM,W
+2019,Fall,SE-450,CrossListOpen (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,SE-450,CrossListOpen (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,SE-494,CrossListOpen (Restricted),9:00 AM,11:50 AM,TR
+2019,Fall,SHS-540,Open,9:00 AM,11:50 AM,T
+2019,Fall,SHS-541,Open,9:00 AM,11:50 AM,M
+2019,Fall,SHS-558,Open,9:00 AM,11:50 AM,W
+2019,Fall,SHS-572,Open,9:00 AM,11:50 AM,W
+2019,Fall,SOC-100,Open,9:00 AM,9:50 AM,R
+2019,Fall,SOC-280,CrossListOpen,9:00 AM,9:50 AM,MWF
+2019,Fall,SOC-473,CrossListOpen (Restricted),9:00 AM,11:20 AM,W
+2019,Fall,SOC-473,CrossListOpen (Restricted),9:00 AM,11:20 AM,W
+2019,Fall,SOCW-410,Open (Restricted),9:00 AM,11:50 AM,R
+2019,Fall,SOCW-416,Open (Restricted),9:00 AM,11:50 AM,F
+2019,Fall,SOCW-427,Open (Restricted),9:00 AM,11:50 AM,M
+2019,Fall,SOCW-473,CrossListOpen (Restricted),9:00 AM,11:20 AM,W
+2019,Fall,SOCW-473,CrossListOpen (Restricted),9:00 AM,11:20 AM,W
+2019,Fall,SOCW-503,Open (Restricted),9:00 AM,5:00 PM,SU
+2019,Fall,SOCW-503,Open (Restricted),9:00 AM,5:00 PM,SU
+2019,Fall,SOCW-506,Open (Restricted),9:00 AM,11:50 AM,W
+2019,Fall,SOCW-522,Open (Restricted),9:00 AM,11:50 AM,M
+2019,Fall,SOCW-541,Open (Restricted),9:00 AM,11:50 AM,T
+2019,Fall,SOCW-542,Open (Restricted),9:00 AM,11:50 AM,W
+2019,Fall,SOCW-552,Open (Restricted),9:00 AM,11:50 AM,R
+2019,Fall,SOCW-561,CrossListOpen (Restricted),9:00 AM,10:50 AM,F
+2019,Fall,SOCW-593,Open (Restricted),9:00 AM,11:50 AM,F
+2019,Fall,SPAN-122,Open,9:00 AM,9:50 AM,TR
+2019,Fall,SPAN-122,Open,9:00 AM,9:50 AM,MW
+2019,Fall,SPAN-130,Open,9:00 AM,9:50 AM,MW
+2019,Fall,SPAN-130,Open,9:00 AM,9:50 AM,TR
+2019,Fall,SPAN-130,Open,9:00 AM,9:50 AM,MW
+2019,Fall,SPAN-130,Open,9:00 AM,9:50 AM,TR
+2019,Fall,SPAN-141,Open,9:00 AM,9:50 AM,TR
+2019,Fall,SPAN-142,Open,9:00 AM,9:50 AM,MW
+2019,Fall,SPAN-142,Open,9:00 AM,9:50 AM,TR
+2019,Fall,SPAN-208,Open,9:00 AM,9:50 AM,MWF
+2019,Fall,SPAN-252,Open,9:00 AM,9:50 AM,MW
+2019,Fall,SPAN-307,Open,9:00 AM,9:50 AM,MWF
+2019,Fall,SPAN-309,Open,9:00 AM,9:50 AM,MWF
+2019,Fall,SPED-590,Open,9:00 AM,10:50 AM,F
+2019,Fall,SPED-590,CrossListOpen,9:00 AM,10:50 AM,F
+2019,Fall,STAT-200,Open (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,STAT-212,Open,9:00 AM,9:50 AM,MWF
+2019,Fall,STAT-410,CrossListOpen (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,STAT-428,CrossListOpen (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,STAT-428,CrossListOpen (Restricted),9:00 AM,9:50 AM,MWF
+2019,Fall,TAM-210,Open,9:00 AM,9:50 AM,T
+2019,Fall,TAM-210,Open,9:00 AM,9:50 AM,W
+2019,Fall,TAM-210,Open,9:00 AM,9:50 AM,R
+2019,Fall,TAM-211,Open,9:00 AM,9:50 AM,T
+2019,Fall,TAM-211,Open,9:00 AM,9:50 AM,W
+2019,Fall,TAM-251,Open,9:00 AM,9:50 AM,MWF
+2019,Fall,TAM-270,CrossListOpen,9:00 AM,10:50 AM,M
+2019,Fall,TAM-570,CrossListOpen,9:00 AM,10:50 AM,MW
+2019,Fall,TE-110,CrossListOpen (Restricted),9:00 AM,9:50 AM,MW
+2019,Fall,TE-461,Open,9:00 AM,10:50 AM,MW
+2019,Fall,THEA-126,Open (Restricted),9:00 AM,10:20 AM,TR
+2019,Fall,THEA-199,Open (Restricted),9:00 AM,10:20 AM,F
+2019,Fall,THEA-199,Open,9:00 AM,10:30 AM,MW
+2019,Fall,THEA-371,Open,9:00 AM,9:50 AM,MTWR
+2019,Fall,THEA-371,Open,9:00 AM,9:50 AM,MTWR
+2019,Fall,THEA-374,Open,9:00 AM,12:50 PM,F
+2019,Fall,THEA-374,Open,9:00 AM,12:50 PM,F
+2019,Fall,THEA-399,Open,9:00 AM,10:30 AM,MW
+2019,Fall,THEA-423,Open,9:00 AM,11:50 AM,R
+2019,Fall,THEA-428,Open (Restricted),9:00 AM,11:50 AM,S
+2019,Fall,THEA-437,Open,9:00 AM,10:50 AM,W
+2019,Fall,THEA-448,Open (Restricted),9:00 AM,11:50 AM,TR
+2019,Fall,THEA-471,Open,9:00 AM,9:50 AM,MTWR
+2019,Fall,THEA-471,Open,9:00 AM,9:50 AM,MTWR
+2019,Fall,THEA-480,Open (Restricted),9:00 AM,12:50 PM,W
+2019,Fall,THEA-560,Open (Restricted),9:00 AM,11:50 AM,R
+2019,Fall,THEA-591,Open,9:00 AM,9:50 AM,MWF
+2019,Fall,THEA-591,Open,9:00 AM,10:20 AM,F
+2019,Fall,TRST-403,CrossListOpen,9:00 AM,9:50 AM,MWF
+2019,Fall,TSM-100,Open,9:00 AM,9:50 AM,MWF
+2019,Fall,TSM-352,Open,9:00 AM,9:50 AM,T
+2019,Fall,UP-101,Open,9:00 AM,9:50 AM,F
+2019,Fall,UP-101,Open,9:00 AM,9:50 AM,F
+2019,Fall,UP-203,Open,9:00 AM,9:50 AM,F
+2019,Fall,UP-203,Open,9:00 AM,9:50 AM,MW
+2019,Fall,UP-501,Open,9:00 AM,10:20 AM,W
+2019,Fall,UP-501,Open,9:00 AM,10:20 AM,W
+2019,Fall,VM-602,Open (Restricted),9:00 AM,11:50 AM,MWF
+2019,Fall,VM-602,Open (Restricted),9:00 AM,9:50 AM,TR
+2019,Fall,VM-605,Open (Restricted),9:00 AM,11:50 AM,TR
+2019,Fall,VM-609,Open (Restricted),9:00 AM,11:50 AM,MWF
+2019,Fall,VM-610,Open (Restricted),9:00 AM,11:50 AM,MWF
+2019,Fall,WLOF-20,CrossListOpen,9:00 AM,10:20 AM,F
+2019,Fall,WRIT-300,Open,9:00 AM,9:50 AM,MW

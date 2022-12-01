@@ -1,0 +1,8 @@
+#gitignore 
+*.class
+*.idea 
+*.iml
+target/
+.idea/*
+.jar
+.DS_Store

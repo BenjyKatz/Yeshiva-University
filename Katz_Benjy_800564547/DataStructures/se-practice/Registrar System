@@ -1,0 +1,69 @@
+Registrar System
+
+Registrar System
+	College
+		Department
+			Course Catalog
+				Course
+					Students
+					Proffesor
+					Course Number
+					Capacity
+					PreRex
+					Credit
+			Staff Directory
+				Proffessors and the courses they teach.
+	User
+		Username and Password
+		Registrar staff
+		Dean
+		Proffesor
+			Courses Offered
+		Student
+			Transcript
+				Completed Courses grade and credit amount
+			Schedule
+
+
+We have 3 weeks left of classes, and will use the time for some software engineering practice.
+Week 1: Some Basic Object Oriented Data Model design practice
+Week 2: Discuss Testing and TDD, Create Logic Skeletons, Develop Unit Tests
+Week 3: Finish Application Logic and (Depending on How Fast We have Moved) Implement Persistent Storage Using Apache Derby
+
+Unlike the Semester Project, your grade on this will not depend on getting every last peice of code/logic completely correct (failing some minor tests will not hurt your grade), rather on demonstrating that your code properly fulfilled that week's "theme" (if you hand in minimal code that doesn't indicate that you gave this major effort, however...). As always, though, YOUR CODE MUST COMPILE!
+
+You will check your work/code into GitHub under "se-practice", in other words:
+https://github.com/Yeshiva-University-CS/UncleMoishe_800123456/DataStructures/se-practice/week1
+https://github.com/Yeshiva-University-CS/UncleMoishe_800123456/DataStructures/se-practice/week2
+https://github.com/Yeshiva-University-CS/UncleMoishe_800123456/DataStructures/se-practice/week3
+
+- Should be Do-Able During the 4 hours of class time each week.
+- moving 15% of grade from final exam to this
+
+I will share my code with you after you have handed in each week's work. I don't give any promises about it being perfect (I am doing this under extreme time pressure, just like you!), but it will at least be decent!
+
+We are going to build a registrar system. (Think MyYU / Banner).
+
+Note: Steps can be iterative, since each step can shed light on / clarify the other steps!
+
+Step 1: Identify Users & Data
+Step 2: Identify Workflows / Features
+Step 3: Create Data Model (just classes, fields, getters and setters - no workflow/feature logic).
+Things to keep in mind:
+	1) Loose coupling: do not replicate data needlessly! For example, if a professor belongs to a department and every department is part of a school, it's not a good idea to separately and directly list off all the professors in a school within a collection within school - you can always get to them via the departments! Why not have a colelction within school storing professors directly?
+		a) creates repetative and error-prone work to keep the redundant professor-department-school connections in synch
+		b) makes the model more brittle due to tighter coupling, when everything references everything
+		c) wastes memory
+	2) Encapsulation: do not expose (i.e. make public, or even protected) a class's instance variables - provide getters and setters.
+		a) if code outside the class can directly change the instance variables, figuring out how a given vairable was set to a given value becomes very difficult, and thus makes debugging extremely hard
+		b) getters and setters force consistency in the assertions, error checks, pre and post conditions, and logic applied when getting/setting a given value.
+		c) if one of your instance variables is a collection or array, DO NOT return the actual collection or array from the getter - that would allow any caller to modify the collection/array! Instead return a copy of the collection/array.
+	3) Classes and inheritance: what things are all specific instances of the same exact type? What things descend from a common parent concept but have substantive variations? Factor out common things to superclasses, put specific things in subclasses. If there are no specific/varying behaviors or fields, don't create a subclass!
+	4) Security: There is information that some users can read but not write, and some that some users can not even read at all. For example, students can search for, and view, what the requirements are for a given major but can't change the requirements. The registrar or dean, however, can change that information. A student can see hos own transcript but not anyoen else's. How can object oriented programming help you only keep one copy of each peice of information but also not allow users to update that which they have no permission to update? There are at least 2 approaches.
+Step 4: Create Skeleton Interfaces / Classes for Application Logic
+Step 5: Develop Unit Tests
+Step 6: Implement the Applciation Logic
+Step 7: Discuss, and Design, Persistent Data Storage:
+Step 8: Implement Persistent Data Storage Using SQL Embeded DB (Derby)
+
+

@@ -1,0 +1,172 @@
+
+
+
+
+Algs1 with an input of 200 was completes in 7 milis 
+Algs2 with an input of 200 was completes in 0 milis 
+Algs3 with an input of 200 was completes in 0 milis 
+Algs4 with an input of 200 was completes in 25842 nanos 
+
+
+
+Algs1 with an input of 400 was completes in 4 milis 
+Algs2 with an input of 400 was completes in 0 milis 
+Algs3 with an input of 400 was completes in 1 milis 
+Algs4 with an input of 400 was completes in 1275 nanos 
+
+
+
+Algs1 with an input of 800 was completes in 30 milis 
+Algs2 with an input of 800 was completes in 0 milis 
+Algs3 with an input of 800 was completes in 2 milis 
+Algs4 with an input of 800 was completes in 1464 nanos 
+
+
+
+Algs1 with an input of 1600 was completes in 214 milis 
+Algs2 with an input of 1600 was completes in 0 milis 
+Algs3 with an input of 1600 was completes in 1 milis 
+Algs4 with an input of 1600 was completes in 1327 nanos 
+
+
+
+Algs1 with an input of 3200 was completes in 3518 milis 
+Algs2 with an input of 3200 was completes in 0 milis 
+Algs3 with an input of 3200 was completes in 2 milis 
+Algs4 with an input of 3200 was completes in 1884 nanos 
+
+
+
+Algs1 with an input of 6400 was completes in 42695 milis 
+Algs2 with an input of 6400 was completes in 0 milis 
+Algs3 with an input of 6400 was completes in 6 milis 
+Algs4 with an input of 6400 was completes in 1747 nanos 
+
+
+
+Algs1 with an input of 12800 was completes in 87916 milis 
+Algs2 with an input of 12800 was completes in 0 milis 
+Algs3 with an input of 12800 was completes in 26 milis 
+Algs4 with an input of 12800 was completes in 2227 nanos 
+
+
+
+Algs1 with an input of 25600 was completes in 701521 milis 
+Algs2 with an input of 25600 was completes in 0 milis 
+Algs3 with an input of 25600 was completes in 91 milis 
+Algs4 with an input of 25600 was completes in 1622 nanos 
+
+
+
+Algs1 with an input of 51200 was completes in 5525644 milis 
+Algs2 with an input of 51200 was completes in 1 milis 
+Algs3 with an input of 51200 was completes in 362 milis 
+Algs4 with an input of 51200 was completes in 2009 nanos 
+
+
+
+Algs1 with an input of 200 was completes in 0 milis 
+Algs2 with an input of 200 was completes in 0 milis 
+Algs3 with an input of 200 was completes in 0 milis 
+Algs4 with an input of 200 was completes in 22361 nanos 
+
+
+
+Algs1 with an input of 400 was completes in 0 milis 
+Algs2 with an input of 400 was completes in 0 milis 
+Algs3 with an input of 400 was completes in 2 milis 
+Algs4 with an input of 400 was completes in 1268 nanos 
+
+
+
+Algs1 with an input of 800 was completes in 0 milis 
+Algs2 with an input of 800 was completes in 0 milis 
+Algs3 with an input of 800 was completes in 2 milis 
+Algs4 with an input of 800 was completes in 1995 nanos 
+
+
+
+Algs1 with an input of 1600 was completes in 0 milis 
+Algs2 with an input of 1600 was completes in 0 milis 
+Algs3 with an input of 1600 was completes in 1 milis 
+Algs4 with an input of 1600 was completes in 1488 nanos 
+
+
+
+Algs1 with an input of 3200 was completes in 0 milis 
+Algs2 with an input of 3200 was completes in 0 milis 
+Algs3 with an input of 3200 was completes in 2 milis 
+Algs4 with an input of 3200 was completes in 1672 nanos 
+
+
+
+Algs1 with an input of 6400 was completes in 0 milis 
+Algs2 with an input of 6400 was completes in 0 milis 
+Algs3 with an input of 6400 was completes in 7 milis 
+Algs4 with an input of 6400 was completes in 1713 nanos 
+
+
+
+Algs1 with an input of 12800 was completes in 0 milis 
+Algs2 with an input of 12800 was completes in 1 milis 
+Algs3 with an input of 12800 was completes in 27 milis 
+Algs4 with an input of 12800 was completes in 2105 nanos 
+
+
+
+Algs1 with an input of 25600 was completes in 0 milis 
+Algs2 with an input of 25600 was completes in 0 milis 
+Algs3 with an input of 25600 was completes in 107 milis 
+Algs4 with an input of 25600 was completes in 2275 nanos 
+
+
+
+Algs1 with an input of 51200 was completes in 0 milis 
+Algs2 with an input of 51200 was completes in 0 milis 
+Algs3 with an input of 51200 was completes in 395 milis 
+Algs4 with an input of 51200 was completes in 2231 nanos 
+
+
+
+Algs1 with an input of 102400 was completes in 0 milis 
+Algs2 with an input of 102400 was completes in 0 milis 
+Algs3 with an input of 102400 was completes in 2189 milis 
+Algs4 with an input of 102400 was completes in 1936 nanos 
+
+
+
+Algs1 with an input of 204800 was completes in 0 milis 
+Algs2 with an input of 204800 was completes in 1 milis 
+Algs3 with an input of 204800 was completes in 5382 milis 
+Algs4 with an input of 204800 was completes in 2371 nanos 
+
+
+
+Algs1 with an input of 409600 was completes in 0 milis 
+Algs2 with an input of 409600 was completes in 0 milis 
+Algs3 with an input of 409600 was completes in 21385 milis 
+Algs4 with an input of 409600 was completes in 1754 nanos 
+
+
+
+Algs1 with an input of 819200 was completes in 0 milis 
+Algs2 with an input of 819200 was completes in 1 milis 
+Algs3 with an input of 819200 was completes in 85605 milis 
+Algs4 with an input of 819200 was completes in 2429 nanos 
+
+
+
+Algs1 with an input of 1638400 was completes in 0 milis 
+Algs2 with an input of 1638400 was completes in 1 milis 
+Algs3 with an input of 1638400 was completes in 376546 milis 
+Algs4 with an input of 1638400 was completes in 2312 nanos 
+
+
+
+Algs1 with an input of 3276800 was completes in 0 milis 
+Algs2 with an input of 3276800 was completes in 1 milis 
+Algs3 with an input of 3276800 was completes in 9194338 milis 
+Algs4 with an input of 3276800 was completes in 2126 nanos 
+
+
+

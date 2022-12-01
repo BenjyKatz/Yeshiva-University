@@ -1,0 +1,10 @@
+PA,AB + BB + SH + SF + HBP
+AVG,H / AB
+OBP,(H + BB + HBP) / (PA - SH)
+TB,(H - 2B - 3B - HR) + (2B * 2) + (3B * 3) + (HR * 4)
+SLG,TB / AB
+OPS,OBP + SLG
+playerInfo,"JOIN(-,Player,Team,Pos,STR(Age))"
+homeRunThreat,(HR / AB) > 0.05
+infielder,"NOT (Pos IN ('OF','DH'))"
+ageBracket,"IF (Age > 35, 'VETERAN', IF(Pos = 'C' AND Age >= 30, 'VETERAN', 'YOUNG'))"
