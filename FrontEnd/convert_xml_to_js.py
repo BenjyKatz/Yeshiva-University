@@ -13,7 +13,7 @@ def extract_coordinates(coordinates_text):
 
 def format_coordinates_for_js(coordinates):
     # Format coordinates in the desired JavaScript format
-    return [f'{{ lat: {lat}, lng: {lng} }}' for lat, lng in coordinates]
+    return [f'{{ lat: {lat}, lng: {lng} }}' for lng, lat in coordinates]
 
 def convertXMLtoJavaScript(xml_file_path, js_file_path):
     with open(xml_file_path, 'r') as xml_file:
