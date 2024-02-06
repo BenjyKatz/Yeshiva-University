@@ -1,2 +1,2 @@
 # TaxiCaptstone
-Maching Learning Capstone Project, Spring 2024
+Machine Learning Capstone Project, Spring 2024
