@@ -1,11 +1,13 @@
 from flask import Flask, request, jsonify
 from datetime import timedelta
 from datetime import datetime
+from flask_cors import CORS
 
 from sodapy import Socrata
 import pandas as pd
 
 app = Flask(__name__)
+CORS(app)
 
 
 from datetime import datetime
