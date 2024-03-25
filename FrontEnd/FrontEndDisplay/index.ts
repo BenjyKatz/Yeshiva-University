@@ -3,6 +3,7 @@ import { getMapArr } from './mapData'; // Import the mapData module
 
 let mapArray: google.maps.Polygon[] = [];
 const zoneInfoArray: MapInfo []=[];
+let map: google.maps.Map;
 
 
 class MapInfo {
@@ -11,13 +12,15 @@ class MapInfo {
     private count: number;
     private averageDuration: number;
     private averageTripDistance: number;
+    private heuristic: number;
   
     // Constructor
-    constructor(averageTotalAmount: number, count: number, averageDuration: number, averageTripDistance: number) {
+    constructor(averageTotalAmount: number, count: number, averageDuration: number, averageTripDistance: number, heuristic: number) {
       this.averageTotalAmount = averageTotalAmount;
       this.count = count;
       this.averageDuration = averageDuration;
       this.averageTripDistance = averageTripDistance;
+      this.heuristic = heuristic;
     }
     getAverageTotalAmount(): number {
         return this.averageTotalAmount;
@@ -34,10 +37,13 @@ class MapInfo {
     getAverageTripDistance(): number {
         return this.averageTripDistance;
     }
+    getHeuristic(): number {
+        return this.heuristic;
+    }
   }
 
 function initMap(): void {
-  const map = new google.maps.Map(document.getElementById("map") as HTMLElement, {
+  map = new google.maps.Map(document.getElementById("map") as HTMLElement, {
     zoom: 10.5,
     center: { lat: 40.74000, lng: -73.958722 }
   });
@@ -55,7 +61,7 @@ function initMap(): void {
     
 
     for (let i=0; i<262; i++) {
-        zoneInfoArray.push(new MapInfo(0, 0, 0, 0));
+        zoneInfoArray.push(new MapInfo(0, 0, 0, 0, 0));
     }
 
     mapArray = getMapArr();
@@ -128,9 +134,12 @@ async function updateInfo() {
         const totalResponse = await fetch(url);
         const response = await totalResponse.json();
         parseResult(response);
+        updateColors();
     } catch (error) {
         console.error('Error:', error);
     }
+    console.log(zoneInfoArray);
+
 }
 
 updateInfo();
@@ -145,7 +154,60 @@ function parseResult(response: any): void {
             console.log('Error ' + i);
         }
         else {
-            zoneInfoArray[i-1] = new MapInfo(infoI["AVG_total_amount"], infoI["COUNT"], infoI["avg_duration"], infoI["AVG_trip_distance"]); // Access the properties using square brackets
+            zoneInfoArray[i-1] = new MapInfo(infoI["AVG_total_amount"], infoI["COUNT"], infoI["avg_duration"], infoI["AVG_trip_distance"], infoI["heuristic"]); // Access the properties using square brackets
         }
+    }
+}
+
+
+function numberToColor(value: number): string {
+    // Ensure the value is within the [0, 1] range
+    value = Math.max(0, Math.min(1, value));
+
+    // Define the color stops for the gradient
+    const colors = [
+        { value: 0, color: [255, 0, 0] },     // Red
+        { value: 0.5, color: [255, 165, 0] }, // Orange
+        { value: 0.75, color: [255, 255, 0] },// Yellow
+        { value: 1, color: [0, 255, 0] }      // Green
+    ];
+
+    // Special case for value 0
+    if (value === 0) {
+        return '#' + colors[0].color.map(c => c.toString(16).padStart(2, '0')).join('');
+    }
+
+    // Special case for value 1
+    if (value === 1) {
+        return '#' + colors[colors.length - 1].color.map(c => c.toString(16).padStart(2, '0')).join('');
+    }
+
+    // Find the two closest color stops for the value
+    let i = 0;
+    while (value > colors[i].value) {
+        i++;
+    }
+
+    // Interpolate between the two closest colors
+    const ratio = (value - colors[i - 1].value) / (colors[i].value - colors[i - 1].value);
+    const color = [
+        Math.round(colors[i - 1].color[0] + ratio * (colors[i].color[0] - colors[i - 1].color[0])),
+        Math.round(colors[i - 1].color[1] + ratio * (colors[i].color[1] - colors[i - 1].color[1])),
+        Math.round(colors[i - 1].color[2] + ratio * (colors[i].color[2] - colors[i - 1].color[2]))
+    ];
+
+    // Convert RGB components to hex format
+    const hexColor = '#' + color.map(c => c.toString(16).padStart(2, '0')).join('');
+
+    return hexColor;
+}
+
+function updateColors() {
+    for (let i = 0; i < mapArray.length; i++) {
+        const polygon = mapArray[i];
+        const zoneIndex = polygon.get("zIndex") as number;
+        polygon.setOptions({fillColor: numberToColor(zoneInfoArray[zoneIndex-1].getHeuristic()), strokeColor: numberToColor(zoneInfoArray[zoneIndex-1].getHeuristic())});
+        polygon.setMap(null);
+        polygon.setMap(map);
     }
 }
