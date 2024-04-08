@@ -46,7 +46,7 @@ def get_data(start_time, end_time):
     # First 2000 results, returned as JSON from API / converted to Python list of
     # dictionaries by sodapy.
     query_params = {
-        "select": "pulocationid, AVG(total_amount), COUNT(*),  AVG( (date_extract_hh(tpep_dropoff_datetime)- date_extract_hh(tpep_pickup_datetime))*60 +(date_extract_mm(tpep_dropoff_datetime)-date_extract_mm(tpep_pickup_datetime))) AS avg_duration, CASE WHEN AVG_total_amount = 0 OR avg_duration = 0 THEN 0 ELSE AVG_total_amount / avg_duration * count / 450 END AS heuristic,"+
+        "select": "pulocationid, AVG(total_amount), COUNT(*),  AVG( (date_extract_hh(tpep_dropoff_datetime)- date_extract_hh(tpep_pickup_datetime))*60 +(date_extract_mm(tpep_dropoff_datetime)-date_extract_mm(tpep_pickup_datetime))) AS avg_duration, CASE WHEN AVG_total_amount = 0 OR avg_duration = 0 THEN 0 ELSE AVG_total_amount / avg_duration * count END AS heuristic,"+
         " AVG(trip_distance)",
         "where": f"tpep_pickup_datetime >= '{start_time}' AND tpep_pickup_datetime < '{end_time}'",
 

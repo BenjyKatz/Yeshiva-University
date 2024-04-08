@@ -20,7 +20,7 @@ class MapInfo {
       this.count = count;
       this.averageDuration = averageDuration;
       this.averageTripDistance = averageTripDistance;
-      this.heuristic = heuristic;
+      this.heuristic = Math.log(heuristic)/3;
     }
     getAverageTotalAmount(): number {
         return this.averageTotalAmount;
@@ -173,12 +173,12 @@ function numberToColor(value: number): string {
     ];
 
     // Special case for value 0
-    if (value === 0) {
+    if (value == 0) {
         return '#' + colors[0].color.map(c => c.toString(16).padStart(2, '0')).join('');
     }
 
     // Special case for value 1
-    if (value === 1) {
+    if (value == 1) {
         return '#' + colors[colors.length - 1].color.map(c => c.toString(16).padStart(2, '0')).join('');
     }
 
@@ -203,9 +203,13 @@ function numberToColor(value: number): string {
 }
 
 function updateColors() {
+    
     for (let i = 0; i < mapArray.length; i++) {
         const polygon = mapArray[i];
         const zoneIndex = polygon.get("zIndex") as number;
+        if (zoneIndex>240) {
+            alert("zone " + zoneIndex);
+        }
         polygon.setOptions({fillColor: numberToColor(zoneInfoArray[zoneIndex-1].getHeuristic()), strokeColor: numberToColor(zoneInfoArray[zoneIndex-1].getHeuristic())});
         polygon.setMap(null);
         polygon.setMap(map);
