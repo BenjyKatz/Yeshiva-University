@@ -207,9 +207,6 @@ function updateColors() {
     for (let i = 0; i < mapArray.length; i++) {
         const polygon = mapArray[i];
         const zoneIndex = polygon.get("zIndex") as number;
-        if (zoneIndex>240) {
-            alert("zone " + zoneIndex);
-        }
         polygon.setOptions({fillColor: numberToColor(zoneInfoArray[zoneIndex-1].getHeuristic()), strokeColor: numberToColor(zoneInfoArray[zoneIndex-1].getHeuristic())});
         polygon.setMap(null);
         polygon.setMap(map);
