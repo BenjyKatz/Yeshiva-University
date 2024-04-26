@@ -4,6 +4,7 @@ import { getMapArr } from './mapData'; // Import the mapData module
 let mapArray: google.maps.Polygon[] = [];
 const zoneInfoArray: MapInfo []=[];
 let map: google.maps.Map;
+let myColor: Color;
 
 
 class MapInfo {
@@ -20,7 +21,7 @@ class MapInfo {
       this.count = count;
       this.averageDuration = averageDuration;
       this.averageTripDistance = averageTripDistance;
-      this.heuristic = Math.log(heuristic)/3;
+      this.heuristic = heuristic;
     }
     getAverageTotalAmount(): number {
         return this.averageTotalAmount;
@@ -60,19 +61,19 @@ function initMap(): void {
 
     
 
-    for (let i=0; i<262; i++) {
+    for (let i=0; i<263; i++) {
         zoneInfoArray.push(new MapInfo(0, 0, 0, 0, 0));
     }
 
     mapArray = getMapArr();
-    //BEGINNING OF ADDED STUFF
+    
     let currentInfoWindow: google.maps.InfoWindow | null = null;
 
     for (let i = 0; i < mapArray.length; i++) {
         const polygon = mapArray[i];
         polygon.setMap(map);
         const infoWindow = new google.maps.InfoWindow({
-            content: "<div id='infoContent'>Zone Num: " + polygon.get("zIndex") + "\n</div>",
+            content: "<div id='infoContent'>Zone Number: " + polygon.get("zIndex") + "\n</div>",
         });
         infoWindow.setContent(`<style>${infoWindowContentStyle}</style>${infoWindow.getContent()}`);
         
@@ -85,7 +86,7 @@ function initMap(): void {
             const mapInfo = zoneInfoArray[zoneIndex - 1]; // Get the MapInfo for previous index
             const content = `
             <div id='infoContent'>
-                Zone Num: ${zoneIndex} <br>
+                Zone Number: ${zoneIndex} <br>
                 Average Total Amount: $${Number(mapInfo.getAverageTotalAmount()).toFixed(2)} <br>
                 Number of Taxis: ${Number(mapInfo.getCount())} <br>
                 Average Duration: ${Number(mapInfo.getAverageDuration()).toFixed(2)} minutes <br>
@@ -101,7 +102,7 @@ function initMap(): void {
         google.maps.event.addListener(polygon, 'click', displayInfoWindow);
     }
 
-  
+    myColor = Color.Price;
 }
 
 // Call initMap when the page loads
@@ -109,11 +110,14 @@ window.addEventListener("load", () => {
   initMap();
 });
 
-//Average total amount (dollars and cents)
-//Count (amount of trips picked up in 30 minute time frame)
-//Average Duration (minutes)
-//Average trip distance (miles)
-//Heuristic (total amount/duration)
+enum Color {
+    Price,
+    Duration,
+    Distance,
+    Number,
+    Heuristic,
+    ML
+}
 
 function getCurrentDateTime(): string {
     const now = new Date();
@@ -148,67 +152,111 @@ setInterval(updateInfo, 30 * 1000);
 
 function parseResult(response: any): void {
     console.log(response);
-    for (let i=1; i<=262; i++) {
+    let maxZone = -1;
+    let maxDuration = -1;
+    for (let i=1; i<=263; i++) {
         const infoI = response[i]; // Access the property directly from the object
         if (!infoI) {
             console.log('Error ' + i);
         }
         else {
+            let duration = parseInt(infoI["heuristic"]);
+            if (duration>maxDuration) {
+                maxZone = i;
+                maxDuration = duration;
+            }
             zoneInfoArray[i-1] = new MapInfo(infoI["AVG_total_amount"], infoI["COUNT"], infoI["avg_duration"], infoI["AVG_trip_distance"], infoI["heuristic"]); // Access the properties using square brackets
         }
     }
+    console.log("Max zone is " + maxZone + " with value " + maxDuration);
 }
 
 
 function numberToColor(value: number): string {
-    // Ensure the value is within the [0, 1] range
-    value = Math.max(0, Math.min(1, value));
+    // Clamp the value between 0 and 1
+    const clampedValue = Math.min(1, Math.max(0, value));
 
-    // Define the color stops for the gradient
-    const colors = [
-        { value: 0, color: [255, 0, 0] },     // Red
-        { value: 0.5, color: [255, 165, 0] }, // Orange
-        { value: 0.75, color: [255, 255, 0] },// Yellow
-        { value: 1, color: [0, 255, 0] }      // Green
-    ];
+    // Define RGB values for red, yellow, and green
+    const red = [255, 0, 0];
+    const yellow = [255, 255, 0];
+    const green = [0, 255, 0];
 
-    // Special case for value 0
-    if (value == 0) {
-        return '#' + colors[0].color.map(c => c.toString(16).padStart(2, '0')).join('');
+    let color: number[];
+
+    // Determine the color based on the value
+    if (clampedValue <= 0.5) {
+        // Interpolate between red and yellow
+        const ratio = clampedValue / 0.5;
+        color = red.map((channel, index) =>
+            Math.round(channel + ratio * (yellow[index] - channel))
+        );
+    } else {
+        // Interpolate between yellow and green
+        const ratio = (clampedValue - 0.5) / 0.5;
+        color = yellow.map((channel, index) =>
+            Math.round(channel + ratio * (green[index] - channel))
+        );
     }
 
-    // Special case for value 1
-    if (value == 1) {
-        return '#' + colors[colors.length - 1].color.map(c => c.toString(16).padStart(2, '0')).join('');
-    }
-
-    // Find the two closest color stops for the value
-    let i = 0;
-    while (value > colors[i].value) {
-        i++;
-    }
-
-    // Interpolate between the two closest colors
-    const ratio = (value - colors[i - 1].value) / (colors[i].value - colors[i - 1].value);
-    const color = [
-        Math.round(colors[i - 1].color[0] + ratio * (colors[i].color[0] - colors[i - 1].color[0])),
-        Math.round(colors[i - 1].color[1] + ratio * (colors[i].color[1] - colors[i - 1].color[1])),
-        Math.round(colors[i - 1].color[2] + ratio * (colors[i].color[2] - colors[i - 1].color[2]))
-    ];
-
-    // Convert RGB components to hex format
-    const hexColor = '#' + color.map(c => c.toString(16).padStart(2, '0')).join('');
+    // Convert RGB values to hexadecimal color code
+    const hexColor = color.reduce((acc, channel) => {
+        const hex = channel.toString(16).padStart(2, '0');
+        return acc + hex;
+    }, '#');
 
     return hexColor;
 }
 
+//price - max 142
+//duration - max 73
+//distance - max 21
+//number of taxis - max 438
+//heuristic - max 434
 function updateColors() {
-    
     for (let i = 0; i < mapArray.length; i++) {
         const polygon = mapArray[i];
         const zoneIndex = polygon.get("zIndex") as number;
-        polygon.setOptions({fillColor: numberToColor(zoneInfoArray[zoneIndex-1].getHeuristic()), strokeColor: numberToColor(zoneInfoArray[zoneIndex-1].getHeuristic())});
+        let number;
+        if (myColor==Color.Distance) {
+            number = Math.log(zoneInfoArray[zoneIndex-1].getAverageTripDistance())/3.05;
+        } else if (myColor==Color.Duration) {
+            number = Math.log(zoneInfoArray[zoneIndex-1].getAverageDuration())/4.3;
+        } else if (myColor==Color.Number) {
+            number = Math.log(zoneInfoArray[zoneIndex-1].getCount())/6.1;
+        } else if (myColor==Color.Price) {
+            number = Math.log(zoneInfoArray[zoneIndex-1].getAverageTotalAmount())/5;
+        } else if (myColor==Color.Heuristic) {
+            number = Math.log(zoneInfoArray[zoneIndex-1].getHeuristic())/6.1;
+        }
+        polygon.setOptions({fillColor: numberToColor(number), strokeColor: numberToColor(number)});
         polygon.setMap(null);
         polygon.setMap(map);
     }
 }
+
+
+// Define a function to handle radio button changes
+function handleRadioButtonChange(event: Event) {
+    const selectedOption = (event.target as HTMLInputElement).value;
+    // Perform actions based on the selected option
+    if (selectedOption=="price") {
+        myColor = Color.Price;
+    } else if (selectedOption=="duration") {
+        myColor = Color.Duration;
+    } else if (selectedOption=="taxis") {
+        myColor = Color.Number;
+    } else if (selectedOption=="heuristic") {
+        myColor = Color.Heuristic;
+    } else if (selectedOption=="model") {
+        myColor = Color.ML;
+    }
+    updateColors();
+  }
+  
+  // Get a reference to the radio buttons
+  const radioButtons = document.querySelectorAll<HTMLInputElement>('input[name="color-option"]');
+  
+  // Attach event listeners to the radio buttons
+  radioButtons.forEach(button => {
+    button.addEventListener('change', handleRadioButtonChange);
+  });
