@@ -2,9 +2,11 @@ import axios from 'axios';
 import { getMapArr } from './mapData'; // Import the mapData module
 
 let mapArray: google.maps.Polygon[] = [];
-const zoneInfoArray: MapInfo []=[];
+const historicalInfoArray: MapInfo []=[];
+const predictiveInfoArray: MapInfo []=[];
 let map: google.maps.Map;
 let myColor: Color;
+let myModel: Model;
 
 
 class MapInfo {
@@ -62,7 +64,8 @@ function initMap(): void {
     
 
     for (let i=0; i<263; i++) {
-        zoneInfoArray.push(new MapInfo(0, 0, 0, 0, 0));
+        historicalInfoArray.push(new MapInfo(0, 0, 0, 0, 0));
+        predictiveInfoArray.push(new MapInfo(0, 0, 0, 0, 0));
     }
 
     mapArray = getMapArr();
@@ -83,15 +86,30 @@ function initMap(): void {
                 currentInfoWindow.close();
             }
             const zoneIndex = polygon.get("zIndex") as number;
-            const mapInfo = zoneInfoArray[zoneIndex - 1]; // Get the MapInfo for previous index
-            const content = `
-            <div id='infoContent'>
-                Zone Number: ${zoneIndex} <br>
-                Average Total Amount: $${Number(mapInfo.getAverageTotalAmount()).toFixed(2)} <br>
-                Number of Taxis: ${Number(mapInfo.getCount())} <br>
-                Average Duration: ${Number(mapInfo.getAverageDuration()).toFixed(2)} minutes <br>
-                Average Trip Distance: ${Number(mapInfo.getAverageTripDistance()).toFixed(2)} miles <br>
-            </div>`;
+            let mapInfo : MapInfo;
+            let content: string;
+            if (myModel==Model.Historical) {
+                mapInfo = historicalInfoArray[zoneIndex - 1]; // Get the MapInfo for previous index
+                content = `
+                <div id='infoContent'>
+                    Zone Number: ${zoneIndex} <br>
+                    Average Total Amount: $${Number(mapInfo.getAverageTotalAmount()).toFixed(2)} <br>
+                    Number of Taxis: ${Number(mapInfo.getCount())} <br>
+                    Average Duration: ${Number(mapInfo.getAverageDuration()).toFixed(2)} minutes <br>
+                    Average Trip Distance: ${Number(mapInfo.getAverageTripDistance()).toFixed(2)} miles <br>
+                </div>`;
+            } else {
+                mapInfo = predictiveInfoArray[zoneIndex - 1]; // Get the MapInfo for previous index
+                content = `
+                <div id='infoContent'>
+                    Zone Number: ${zoneIndex} <br>
+                    Average Total Amount: $${Number(mapInfo.getAverageTotalAmount()).toFixed(2)} <br>
+                    Number of Taxis (Predicted): ${Number(mapInfo.getCount()).toFixed(2)} <br>
+                    Average Duration: ${Number(mapInfo.getAverageDuration()).toFixed(2)} minutes <br>
+                    Average Trip Distance: ${Number(mapInfo.getAverageTripDistance()).toFixed(2)} miles <br>
+                </div>`;
+            }
+            
             infoWindow.setContent(`<style>${infoWindowContentStyle}</style>${content}`);
             infoWindow.setPosition(event.latLng);
             infoWindow.open(map);
@@ -103,6 +121,7 @@ function initMap(): void {
     }
 
     myColor = Color.Price;
+    myModel = Model.Historical;
 }
 
 // Call initMap when the page loads
@@ -110,13 +129,16 @@ window.addEventListener("load", () => {
   initMap();
 });
 
+enum Model {
+    Historical,
+    Predictive
+}
 enum Color {
     Price,
     Duration,
     Distance,
     Number,
     Heuristic,
-    ML
 }
 
 function getCurrentDateTime(): string {
@@ -132,17 +154,21 @@ function getCurrentDateTime(): string {
 
 async function updateInfo() {
     const datetime = getCurrentDateTime();
-    const url = `http://localhost:5000/historical?datetime=${datetime}`;
+    const historicalURL = `http://localhost:5000/historical?datetime=${datetime}`;
+    const predictiveURL = `http://localhost:5000/predictive?datetime=${datetime}`;
+    
 
     try {
-        const totalResponse = await fetch(url);
-        const response = await totalResponse.json();
-        parseResult(response);
+        const histTotalResponse = await fetch(historicalURL);
+        const histResponse = await histTotalResponse.json();
+        const predTotalResponse = await fetch(predictiveURL);
+        const predResponse = await predTotalResponse.json();
+        
+        parseResult(histResponse, predResponse);
         updateColors();
     } catch (error) {
         console.error('Error:', error);
     }
-    console.log(zoneInfoArray);
 
 }
 
@@ -150,25 +176,19 @@ updateInfo();
 
 setInterval(updateInfo, 30 * 1000);
 
-function parseResult(response: any): void {
-    console.log(response);
+function parseResult(histResponse: any, predResponse: any): void {
     let maxZone = -1;
     let maxDuration = -1;
     for (let i=1; i<=263; i++) {
-        const infoI = response[i]; // Access the property directly from the object
-        if (!infoI) {
-            console.log('Error ' + i);
+        const histInfoI = histResponse[i]; // Access the property directly from the object
+        const predInfoI = predResponse[i]; // Access the property directly from the object
+        if (histInfoI) {
+            historicalInfoArray[i-1] = new MapInfo(histInfoI["AVG_total_amount"], histInfoI["COUNT"], histInfoI["avg_duration"], histInfoI["AVG_trip_distance"], histInfoI["heuristic"]); // Access the properties using square brackets
         }
-        else {
-            let duration = parseInt(infoI["heuristic"]);
-            if (duration>maxDuration) {
-                maxZone = i;
-                maxDuration = duration;
-            }
-            zoneInfoArray[i-1] = new MapInfo(infoI["AVG_total_amount"], infoI["COUNT"], infoI["avg_duration"], infoI["AVG_trip_distance"], infoI["heuristic"]); // Access the properties using square brackets
+        if (predInfoI) {
+            predictiveInfoArray[i-1] = new MapInfo(predInfoI["AVG_total_amount"], predInfoI["COUNT"], predInfoI["avg_duration"], predInfoI["AVG_trip_distance"], predInfoI["heuristic"]); // Access the properties using square brackets
         }
     }
-    console.log("Max zone is " + maxZone + " with value " + maxDuration);
 }
 
 
@@ -207,26 +227,32 @@ function numberToColor(value: number): string {
     return hexColor;
 }
 
-//price - max 142
-//duration - max 73
-//distance - max 21
-//number of taxis - max 438
-//heuristic - max 434
+//price - historical max 142, predictive max 61
+//duration - historical max 73, predictive max 45
+//distance - historical max 21, predictive max 15
+//number of taxis - historical max 438, predictive max 209
+//heuristic - historical max 434, predictive max 276
 function updateColors() {
+    let infoArray : MapInfo []=[];
+    if (myModel==Model.Historical) {
+        infoArray = historicalInfoArray;
+    } else {
+        infoArray = predictiveInfoArray;
+    }
     for (let i = 0; i < mapArray.length; i++) {
         const polygon = mapArray[i];
         const zoneIndex = polygon.get("zIndex") as number;
         let number;
         if (myColor==Color.Distance) {
-            number = Math.log(zoneInfoArray[zoneIndex-1].getAverageTripDistance())/3.05;
+            number = Math.log(infoArray[zoneIndex-1].getAverageTripDistance())/3.05;
         } else if (myColor==Color.Duration) {
-            number = Math.log(zoneInfoArray[zoneIndex-1].getAverageDuration())/4.3;
+            number = Math.log(infoArray[zoneIndex-1].getAverageDuration())/4.3;
         } else if (myColor==Color.Number) {
-            number = Math.log(zoneInfoArray[zoneIndex-1].getCount())/6.1;
+            number = Math.log(infoArray[zoneIndex-1].getCount())/6.1;
         } else if (myColor==Color.Price) {
-            number = Math.log(zoneInfoArray[zoneIndex-1].getAverageTotalAmount())/5;
+            number = Math.log(infoArray[zoneIndex-1].getAverageTotalAmount())/5;
         } else if (myColor==Color.Heuristic) {
-            number = Math.log(zoneInfoArray[zoneIndex-1].getHeuristic())/6.1;
+            number = Math.log(infoArray[zoneIndex-1].getHeuristic())/6.1;
         }
         polygon.setOptions({fillColor: numberToColor(number), strokeColor: numberToColor(number)});
         polygon.setMap(null);
@@ -234,9 +260,21 @@ function updateColors() {
     }
 }
 
+ // Define a function to handle radio button changes
+ function handleModelRadioButtonChange(event: Event) {
+    const selectedOption = (event.target as HTMLInputElement).value;
+    if (selectedOption=="historical") {
+        myModel = Model.Historical;
+    }
+    //predictive
+    else {
+        myModel = Model.Predictive;
+    }
+    updateColors();
+  }
 
 // Define a function to handle radio button changes
-function handleRadioButtonChange(event: Event) {
+function handleColorRadioButtonChange(event: Event) {
     const selectedOption = (event.target as HTMLInputElement).value;
     // Perform actions based on the selected option
     if (selectedOption=="price") {
@@ -247,16 +285,26 @@ function handleRadioButtonChange(event: Event) {
         myColor = Color.Number;
     } else if (selectedOption=="heuristic") {
         myColor = Color.Heuristic;
-    } else if (selectedOption=="model") {
-        myColor = Color.ML;
     }
     updateColors();
   }
+
+  // Get a reference to the radio buttons
+  const modelButtons = document.querySelectorAll<HTMLInputElement>('input[name="model"]');
+  
+  // Attach event listeners to the radio buttons
+  modelButtons.forEach(button => {
+    button.addEventListener('change', handleModelRadioButtonChange);
+  });
   
   // Get a reference to the radio buttons
   const radioButtons = document.querySelectorAll<HTMLInputElement>('input[name="color-option"]');
   
   // Attach event listeners to the radio buttons
   radioButtons.forEach(button => {
-    button.addEventListener('change', handleRadioButtonChange);
+    button.addEventListener('change', handleColorRadioButtonChange);
   });
+
+  
+
+ 

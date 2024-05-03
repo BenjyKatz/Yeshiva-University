@@ -15,9 +15,19 @@
   <title>Custom Map Control</title>
   <style>
     #color-control {
-      position: absolute;
+      position: fixed;
       top: 10px;
       right: 55px;
+      background-color: white;
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 1px;
+    }
+    
+    #model-control {
+      position: fixed;
+      top: 10px;
+      right: 450px;
       background-color: white;
       padding: 5px;
       border: 1px solid #ccc;
@@ -27,7 +37,20 @@
   </head>
   <body>
     <div id="map"></div>
-    <!-- Add the button with multiple choices -->
+    <div id="model-control">
+      <fieldset>
+        <legend>Which Model to Use?</legend>
+      
+        <div>
+          <input type="radio" id="historical" name="model" value="historical" checked />
+          <label for="historical">Historical (2022 Data)</label>
+        </div>
+      
+        <div>
+          <input type="radio" id="predictive" name="model" value="predictive"/>
+          <label for="predictive">ML Model</label>
+        </div>
+      </fieldset>
     <div id="color-control">
       <fieldset>
         <legend>Color The Map Based On...</legend>
@@ -55,11 +78,6 @@
         <div>
           <input type="radio" id="heuristic" name="color-option" value="heuristic" />
           <label for="heuristic">Heuristic ((Price/Duration)*Number of Taxis)</label>
-        </div>
-
-        <div>
-          <input type="radio" id="model" name="color-option" value="model" />
-          <label for="model">ML Model</label>
         </div>
       </fieldset>
     </div>
