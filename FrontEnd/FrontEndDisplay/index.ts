@@ -154,8 +154,8 @@ function getCurrentDateTime(): string {
 
 async function updateInfo() {
     const datetime = getCurrentDateTime();
-    const historicalURL = `http://localhost:5000/historical?datetime=${datetime}`;
-    const predictiveURL = `http://localhost:5000/predictive?datetime=${datetime}`;
+    const historicalURL = `http://34.16.191.120:8080/historical?datetime=${datetime}`;
+    const predictiveURL = `http://34.16.191.120:8080/predictive?datetime=${datetime}`;
     
 
     try {
@@ -177,8 +177,6 @@ updateInfo();
 setInterval(updateInfo, 30 * 1000);
 
 function parseResult(histResponse: any, predResponse: any): void {
-    let maxZone = -1;
-    let maxDuration = -1;
     for (let i=1; i<=263; i++) {
         const histInfoI = histResponse[i]; // Access the property directly from the object
         const predInfoI = predResponse[i]; // Access the property directly from the object
