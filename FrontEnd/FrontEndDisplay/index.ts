@@ -154,8 +154,8 @@ function getCurrentDateTime(): string {
 
 async function updateInfo() {
     const datetime = getCurrentDateTime();
-    const historicalURL = `http://34.16.191.120:8080/historical?datetime=${datetime}`;
-    const predictiveURL = `http://34.16.191.120:8080/predictive?datetime=${datetime}`;
+    const historicalURL = `http://127.0.0.1:5000/historical?datetime=${datetime}`;
+    const predictiveURL = `http://127.0.0.1:5000/predictive?datetime=${datetime}`;
     
 
     try {
@@ -191,9 +191,12 @@ function parseResult(histResponse: any, predResponse: any): void {
 
 
 function numberToColor(value: number): string {
+    
     // Clamp the value between 0 and 1
     const clampedValue = Math.min(1, Math.max(0, value));
-
+    if (clampedValue==0) {
+        return "#808080"
+    }
     // Define RGB values for red, yellow, and green
     const red = [255, 0, 0];
     const yellow = [255, 255, 0];

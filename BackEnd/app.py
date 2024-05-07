@@ -186,7 +186,8 @@ def predictive():
     # Concatenate the IDs column with the predictions array
     y_pred_with_ids = np.concatenate([ids_column, y_pred], axis=1)
     predicitions = pd.DataFrame(y_pred_with_ids, columns = ['pulocationid','AVG_total_amount', 'COUNT', 'avg_duration', 'AVG_trip_distance'], index = X.index)
-    predicitions['heuristic'] = (predicitions['AVG_total_amount'] / predicitions['avg_duration']) * predicitions['COUNT']
+    predicitions['heuristic'] = np.where(predicitions['avg_duration'] != 0, (predicitions['AVG_total_amount'] / predicitions['avg_duration']) * predicitions['COUNT'], 0)
+
 
     predicitions.set_index('pulocationid', inplace = True)
     print(predicitions)
