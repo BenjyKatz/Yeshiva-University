@@ -177,16 +177,25 @@ updateInfo();
 setInterval(updateInfo, 30 * 1000);
 
 function parseResult(histResponse: any, predResponse: any): void {
+    // let max = -1;
+    // let maxZone = -1;
     for (let i=1; i<=263; i++) {
         const histInfoI = histResponse[i]; // Access the property directly from the object
         const predInfoI = predResponse[i]; // Access the property directly from the object
+        
         if (histInfoI) {
+            // let currentAmount = histInfoI["COUNT"];
+            // if (currentAmount>max) {
+            //     max = currentAmount;
+            //     maxZone = i;
+            // }
             historicalInfoArray[i-1] = new MapInfo(histInfoI["AVG_total_amount"], histInfoI["COUNT"], histInfoI["avg_duration"], histInfoI["AVG_trip_distance"], histInfoI["heuristic"]); // Access the properties using square brackets
         }
         if (predInfoI) {
             predictiveInfoArray[i-1] = new MapInfo(predInfoI["AVG_total_amount"], predInfoI["COUNT"], predInfoI["avg_duration"], predInfoI["AVG_trip_distance"], predInfoI["heuristic"]); // Access the properties using square brackets
         }
     }
+    // console.log("Max zone is " + maxZone + " with value of " + max);
 }
 
 
@@ -245,15 +254,15 @@ function updateColors() {
         const zoneIndex = polygon.get("zIndex") as number;
         let number;
         if (myColor==Color.Distance) {
-            number = Math.log(infoArray[zoneIndex-1].getAverageTripDistance())/3.05;
+            number = infoArray[zoneIndex-1].getAverageTripDistance()/25.;
         } else if (myColor==Color.Duration) {
-            number = Math.log(infoArray[zoneIndex-1].getAverageDuration())/4.3;
+            number = infoArray[zoneIndex-1].getAverageDuration()/75.;
         } else if (myColor==Color.Number) {
-            number = Math.log(infoArray[zoneIndex-1].getCount())/6.1;
+            number = infoArray[zoneIndex-1].getCount()/450.;
         } else if (myColor==Color.Price) {
-            number = Math.log(infoArray[zoneIndex-1].getAverageTotalAmount())/5;
+            number = infoArray[zoneIndex-1].getAverageTotalAmount()/150.;
         } else if (myColor==Color.Heuristic) {
-            number = Math.log(infoArray[zoneIndex-1].getHeuristic())/6.1;
+            number = infoArray[zoneIndex-1].getHeuristic()/450.;
         }
         polygon.setOptions({fillColor: numberToColor(number), strokeColor: numberToColor(number)});
         polygon.setMap(null);
@@ -284,6 +293,8 @@ function handleColorRadioButtonChange(event: Event) {
         myColor = Color.Duration;
     } else if (selectedOption=="taxis") {
         myColor = Color.Number;
+    } else if (selectedOption=="distance") {
+        myColor = Color.Distance;
     } else if (selectedOption=="heuristic") {
         myColor = Color.Heuristic;
     }
