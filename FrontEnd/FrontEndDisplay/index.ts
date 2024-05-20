@@ -154,8 +154,8 @@ function getCurrentDateTime(): string {
 
 async function updateInfo() {
     const datetime = getCurrentDateTime();
-    const historicalURL = `http://127.0.0.1:5000/historical?datetime=${datetime}`;
-    const predictiveURL = `http://127.0.0.1:5000/predictive?datetime=${datetime}`;
+    const historicalURL = `http://34.16.191.120:8080/historical?datetime=${datetime}`;
+    const predictiveURL = `http://34.16.191.120:8080/predictive?datetime=${datetime}`;
     
 
     try {
