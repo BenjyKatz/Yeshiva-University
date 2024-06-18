@@ -1,0 +1,230 @@
+Oct 26, 2023 11:31:18 PM edu.yu.cs.com3800.UDPMessageSender run
+SEVERE: Exiting UDPMessageSender.run()
+Oct 26, 2023 11:31:18 PM edu.yu.cs.com3800.UDPMessageSender run
+SEVERE: Exiting UDPMessageSender.run()
+Oct 26, 2023 11:31:18 PM edu.yu.cs.com3800.UDPMessageSender run
+SEVERE: Exiting UDPMessageSender.run()
+Oct 26, 2023 11:31:18 PM edu.yu.cs.com3800.UDPMessageSender run
+SEVERE: Exiting UDPMessageSender.run()
+Oct 26, 2023 11:31:18 PM edu.yu.cs.com3800.UDPMessageSender run
+SEVERE: Exiting UDPMessageSender.run()
+Oct 26, 2023 11:31:18 PM edu.yu.cs.com3800.UDPMessageSender run
+SEVERE: Exiting UDPMessageSender.run()
+Oct 26, 2023 11:31:18 PM edu.yu.cs.com3800.UDPMessageSender run
+SEVERE: Exiting UDPMessageSender.run()
+Oct 26, 2023 11:31:18 PM edu.yu.cs.com3800.UDPMessageSender run
+SEVERE: Exiting UDPMessageSender.run()
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: looking for leader
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: looking for leader
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: looking for leader
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: looking for leader
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: looking for leader
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: looking for leader
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: My Server Id is: 6
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: My Server Id is: 1
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: My Server Id is: 3
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: My Server Id is: 2
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: My Server Id is: 5
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: My Server Id is: 4
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: looking for leader
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: looking for leader
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: My Server Id is: 7
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: found a better leader: 6 is better than 2
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: found a better leader: 6 is better than 1
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: found a better leader: 6 is better than 4
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: found a better leader: 6 is better than 3
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: found a better leader: 6 is better than 5
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: My Server Id is: 8
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: found a better leader: 7 is better than 6
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: found a better leader: 7 is better than 6
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: found a better leader: 7 is better than 6
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: found a better leader: 7 is better than 6
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: found a better leader: 7 is better than 6
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: found a better leader: 8 is better than 7
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: found a better leader: 8 is better than 7
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: found a better leader: 8 is better than 7
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: found a better leader: 8 is better than 6
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: found a better leader: 8 is better than 7
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: found a better leader: 8 is better than 7
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: found a better leader: 8 is better than 7
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: finished the messages
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: finished the messages
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: finished the messages
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: finished the messages
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: finished the messages
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.ZooKeeperLeaderElection acceptElectionWinner
+INFO: found the winner: 8
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.ZooKeeperLeaderElection acceptElectionWinner
+INFO: found the winner: 8
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.ZooKeeperLeaderElection acceptElectionWinner
+INFO: found the winner: 8
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: finished the messages
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: finished the messages
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.ZooKeeperLeaderElection acceptElectionWinner
+INFO: found the winner: 8
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: finished the messages
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.ZooKeeperLeaderElection acceptElectionWinner
+INFO: found the winner: 8
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.ZooKeeperLeaderElection acceptElectionWinner
+INFO: found the winner: 8
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.ZooKeeperLeaderElection acceptElectionWinner
+INFO: found the winner: 8
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.ZooKeeperLeaderElection acceptElectionWinner
+INFO: found the winner: 8
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.UDPMessageSender run
+SEVERE: Exiting UDPMessageSender.run()
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.UDPMessageSender run
+SEVERE: Exiting UDPMessageSender.run()
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.UDPMessageSender run
+SEVERE: Exiting UDPMessageSender.run()
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.UDPMessageSender run
+SEVERE: Exiting UDPMessageSender.run()
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.UDPMessageSender run
+SEVERE: Exiting UDPMessageSender.run()
+Oct 26, 2023 11:32:37 PM edu.yu.cs.com3800.UDPMessageSender run
+SEVERE: Exiting UDPMessageSender.run()
+Oct 26, 2023 11:39:33 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: looking for leader
+Oct 26, 2023 11:39:33 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: looking for leader
+Oct 26, 2023 11:39:33 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: looking for leader
+Oct 26, 2023 11:39:33 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: looking for leader
+Oct 26, 2023 11:39:33 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: looking for leader
+Oct 26, 2023 11:39:33 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: looking for leader
+Oct 26, 2023 11:39:33 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: looking for leader
+Oct 26, 2023 11:39:33 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: looking for leader
+Oct 26, 2023 11:39:33 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: My Server Id is: 5
+Oct 26, 2023 11:39:33 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: My Server Id is: 7
+Oct 26, 2023 11:39:33 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: My Server Id is: 8
+Oct 26, 2023 11:39:33 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: My Server Id is: 3
+Oct 26, 2023 11:39:33 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: My Server Id is: 1
+Oct 26, 2023 11:39:33 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: My Server Id is: 4
+Oct 26, 2023 11:39:33 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: My Server Id is: 6
+Oct 26, 2023 11:39:33 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: My Server Id is: 2
+Oct 26, 2023 11:39:33 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: found a better leader: 6 is better than 4
+Oct 26, 2023 11:39:33 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: found a better leader: 8 is better than 1
+Oct 26, 2023 11:39:33 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: found a better leader: 4 is better than 3
+Oct 26, 2023 11:39:33 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: found a better leader: 6 is better than 2
+Oct 26, 2023 11:39:33 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: found a better leader: 6 is better than 5
+Oct 26, 2023 11:39:33 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: found a better leader: 8 is better than 6
+Oct 26, 2023 11:39:33 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: found a better leader: 6 is better than 4
+Oct 26, 2023 11:39:33 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: found a better leader: 8 is better than 6
+Oct 26, 2023 11:39:33 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: found a better leader: 8 is better than 6
+Oct 26, 2023 11:39:33 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: found a better leader: 8 is better than 6
+Oct 26, 2023 11:39:33 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: found a better leader: 8 is better than 7
+Oct 26, 2023 11:39:33 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: found a better leader: 8 is better than 6
+Oct 26, 2023 11:39:33 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: finished the messages
+Oct 26, 2023 11:39:33 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: finished the messages
+Oct 26, 2023 11:39:33 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: finished the messages
+Oct 26, 2023 11:39:33 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: finished the messages
+Oct 26, 2023 11:39:33 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: finished the messages
+Oct 26, 2023 11:39:33 PM edu.yu.cs.com3800.ZooKeeperLeaderElection acceptElectionWinner
+INFO: found the winner: 8
+Oct 26, 2023 11:39:33 PM edu.yu.cs.com3800.ZooKeeperLeaderElection acceptElectionWinner
+INFO: found the winner: 8
+Oct 26, 2023 11:39:34 PM edu.yu.cs.com3800.ZooKeeperLeaderElection acceptElectionWinner
+INFO: found the winner: 8
+Oct 26, 2023 11:39:33 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: finished the messages
+Oct 26, 2023 11:39:34 PM edu.yu.cs.com3800.ZooKeeperLeaderElection acceptElectionWinner
+INFO: found the winner: 8
+Oct 26, 2023 11:39:33 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: finished the messages
+Oct 26, 2023 11:39:33 PM edu.yu.cs.com3800.ZooKeeperLeaderElection lookForLeader
+INFO: finished the messages
+Oct 26, 2023 11:39:34 PM edu.yu.cs.com3800.ZooKeeperLeaderElection acceptElectionWinner
+INFO: found the winner: 8
+Oct 26, 2023 11:39:34 PM edu.yu.cs.com3800.ZooKeeperLeaderElection acceptElectionWinner
+INFO: found the winner: 8
+Oct 26, 2023 11:39:34 PM edu.yu.cs.com3800.ZooKeeperLeaderElection acceptElectionWinner
+INFO: found the winner: 8
+Oct 26, 2023 11:39:34 PM edu.yu.cs.com3800.ZooKeeperLeaderElection acceptElectionWinner
+INFO: found the winner: 8
+Oct 26, 2023 11:39:34 PM edu.yu.cs.com3800.UDPMessageSender run
+SEVERE: Exiting UDPMessageSender.run()
+Oct 26, 2023 11:39:34 PM edu.yu.cs.com3800.UDPMessageSender run
+SEVERE: Exiting UDPMessageSender.run()
+Oct 26, 2023 11:39:34 PM edu.yu.cs.com3800.UDPMessageSender run
+SEVERE: Exiting UDPMessageSender.run()
+Oct 26, 2023 11:39:34 PM edu.yu.cs.com3800.UDPMessageSender run
+SEVERE: Exiting UDPMessageSender.run()
+Oct 26, 2023 11:39:34 PM edu.yu.cs.com3800.UDPMessageSender run
+SEVERE: Exiting UDPMessageSender.run()
+Oct 26, 2023 11:39:34 PM edu.yu.cs.com3800.UDPMessageSender run
+SEVERE: Exiting UDPMessageSender.run()
+Oct 26, 2023 11:39:34 PM edu.yu.cs.com3800.UDPMessageSender run
+SEVERE: Exiting UDPMessageSender.run()
+Oct 26, 2023 11:39:34 PM edu.yu.cs.com3800.UDPMessageSender run
+SEVERE: Exiting UDPMessageSender.run()

@@ -1,0 +1,127 @@
+<!-- Assumes that student has directories conforming to maven conventions:
+     executes "mvn compile" and then "mvn test" -->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>edu.yu.mdm</groupId>
+  <version>1</version>
+  <artifactId>RedisCache</artifactId>
+
+  <!-- https://www.baeldung.com/maven-java-version -->
+  <properties>
+    <maven.compiler.release>11</maven.compiler.release>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <jupiter.version>5.8.1</jupiter.version>
+  </properties>
+
+  <build>
+    <plugins>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.0</version>
+        <configuration>
+          <release>11</release>
+          <compilerArgs>
+            <arg>-Xlint:all,-options,-path</arg>
+          </compilerArgs>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>2.22.0</version>
+
+        <configuration>
+          <includes>
+            <include>Professor*.java</include>
+          </includes>
+          <properties>
+            <property>
+              <name>surefire.testng.verbose</name>
+              <value>1</value>
+            </property>
+            <property>
+              <name>listener</name>
+              <value>edu.yu.oats.utils.test.TestNGSuiteListener, edu.yu.oats.utils.test.TestNGTestListener</value>
+            </property>
+          </properties>
+        </configuration>
+
+      </plugin>
+
+    </plugins>
+  </build>
+
+  <dependencies>
+
+    <!-- https://github.com/redis/jedis -->
+    <dependency>
+      <groupId>redis.clients</groupId>
+      <artifactId>jedis</artifactId>
+      <version>4.3.0</version>
+      <type>jar</type>
+      <scope>compile</scope>
+    </dependency>
+    <!-- for OurListener -->
+    <dependency>
+      <groupId>edu.yu.oats.utils</groupId>
+      <artifactId>OATSUtilities</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-core</artifactId>
+      <version>2.8.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-api</artifactId>
+      <version>2.8.2</version>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.13</version>
+      <scope>test</scope>
+    </dependency>
+    <!-- https://maven.apache.org/surefire/maven-surefire-plugin/examples/testng.html -->
+    <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>7.6.0</version>
+      <scope>test</scope>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest -->
+    <dependency>
+      <groupId>org.hamcrest</groupId>
+      <artifactId>hamcrest</artifactId>
+      <version>2.1</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-api</artifactId>
+      <version>${jupiter.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-engine</artifactId>
+      <version>${jupiter.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.vintage</groupId>
+      <artifactId>junit-vintage-engine</artifactId>
+      <version>${jupiter.version}</version>
+      <scope>test</scope>
+    </dependency>
+
+  </dependencies>
+
+
+</project>

@@ -1,0 +1,106 @@
+Jan 04, 2024 8:09:46 AM edu.yu.cs.com3800.stage5.RoundRobinLeader <init>
+INFO: in the constructor
+Jan 04, 2024 8:09:46 AM edu.yu.cs.com3800.stage5.RoundRobinLeader run
+INFO: The leader round robin has started
+Jan 04, 2024 8:09:46 AM edu.yu.cs.com3800.stage5.RoundRobinLeader run
+INFO: RR map [localhost/127.0.0.1:8020, localhost/127.0.0.1:8030, localhost/127.0.0.1:8040, localhost/127.0.0.1:8060, localhost/127.0.0.1:8070, localhost/127.0.0.1:8080]
+Jan 04, 2024 8:09:46 AM edu.yu.cs.com3800.stage5.RoundRobinLeader run
+INFO: RR my port 8050
+Jan 04, 2024 8:09:46 AM edu.yu.cs.com3800.stage5.RoundRobinLeader run
+INFO: problem in round robin handler
+Jan 04, 2024 8:09:49 AM edu.yu.cs.com3800.stage5.RoundRobinLeader <init>
+INFO: in the constructor
+Jan 04, 2024 8:09:49 AM edu.yu.cs.com3800.stage5.RoundRobinLeader run
+INFO: The leader round robin has started
+Jan 04, 2024 8:09:49 AM edu.yu.cs.com3800.stage5.RoundRobinLeader run
+INFO: RR map [localhost/127.0.0.1:8020, localhost/127.0.0.1:8030, localhost/127.0.0.1:8040, localhost/127.0.0.1:8050, localhost/127.0.0.1:8060, localhost/127.0.0.1:8080]
+Jan 04, 2024 8:09:49 AM edu.yu.cs.com3800.stage5.RoundRobinLeader run
+INFO: RR my port 8070
+Jan 04, 2024 8:09:49 AM edu.yu.cs.com3800.stage5.RoundRobinLeader run
+INFO: problem in round robin handler
+Jan 04, 2024 8:11:14 AM edu.yu.cs.com3800.stage5.RoundRobinLeader lambda$0
+INFO: In Round Robin, Accepted connection from /127.0.0.1
+Jan 04, 2024 8:11:14 AM edu.yu.cs.com3800.stage5.RoundRobinLeader handleClient
+INFO: RR Received from client: package edu.yu.cs.fall2019.com3800.stage1;
+Jan 04, 2024 8:11:14 AM edu.yu.cs.com3800.stage5.RoundRobinLeader handleClient
+INFO: RR Received from client: 
+Jan 04, 2024 8:11:14 AM edu.yu.cs.com3800.stage5.RoundRobinLeader handleClient
+INFO: RR Received from client: public class HelloWorld
+Jan 04, 2024 8:11:14 AM edu.yu.cs.com3800.stage5.RoundRobinLeader handleClient
+INFO: RR Received from client: {
+Jan 04, 2024 8:11:14 AM edu.yu.cs.com3800.stage5.RoundRobinLeader handleClient
+INFO: RR Received from client:     public String run()
+Jan 04, 2024 8:11:14 AM edu.yu.cs.com3800.stage5.RoundRobinLeader handleClient
+INFO: RR Received from client:     {
+Jan 04, 2024 8:11:14 AM edu.yu.cs.com3800.stage5.RoundRobinLeader handleClient
+INFO: RR Received from client:         return "Hello world! from code version 40";
+Jan 04, 2024 8:11:14 AM edu.yu.cs.com3800.stage5.RoundRobinLeader handleClient
+INFO: RR Received from client:     }
+Jan 04, 2024 8:11:14 AM edu.yu.cs.com3800.stage5.RoundRobinLeader handleClient
+INFO: RR Received from client: }
+Jan 04, 2024 8:11:14 AM edu.yu.cs.com3800.stage5.RoundRobinLeader handleClient
+INFO: RR Received from client: 
+Jan 04, 2024 8:11:14 AM edu.yu.cs.com3800.stage5.RoundRobinLeader handleClient
+INFO: handleing in round robin: package edu.yu.cs.fall2019.com3800.stage1;
+
+public class HelloWorld
+{
+    public String run()
+    {
+        return "Hello world! from code version 40";
+    }
+}
+
+
+Jan 04, 2024 8:11:14 AM edu.yu.cs.com3800.stage5.RoundRobinLeader handleClient
+INFO: RR client socket /127.0.0.1 on port 65002
+Jan 04, 2024 8:11:14 AM edu.yu.cs.com3800.stage5.RoundRobinLeader handleClient
+INFO: RR waiting for completed work
+Jan 04, 2024 12:03:30 PM edu.yu.cs.com3800.stage5.RoundRobinLeader <init>
+INFO: in the constructor
+Jan 04, 2024 12:03:30 PM edu.yu.cs.com3800.stage5.RoundRobinLeader run
+INFO: The leader round robin has started
+Jan 04, 2024 12:03:30 PM edu.yu.cs.com3800.stage5.RoundRobinLeader run
+INFO: RR map [localhost/127.0.0.1:8020, localhost/127.0.0.1:8030, localhost/127.0.0.1:8040, localhost/127.0.0.1:8060, localhost/127.0.0.1:8070, localhost/127.0.0.1:8080]
+Jan 04, 2024 12:03:30 PM edu.yu.cs.com3800.stage5.RoundRobinLeader run
+INFO: RR my port 8050
+Jan 04, 2024 12:03:30 PM edu.yu.cs.com3800.stage5.RoundRobinLeader run
+INFO: problem in round robin handler
+Jan 04, 2024 12:05:58 PM edu.yu.cs.com3800.stage5.RoundRobinLeader lambda$0
+INFO: In Round Robin, Accepted connection from /127.0.0.1
+Jan 04, 2024 12:05:58 PM edu.yu.cs.com3800.stage5.RoundRobinLeader handleClient
+INFO: RR Received from client: package edu.yu.cs.fall2019.com3800.stage1;
+Jan 04, 2024 12:05:58 PM edu.yu.cs.com3800.stage5.RoundRobinLeader handleClient
+INFO: RR Received from client: 
+Jan 04, 2024 12:05:58 PM edu.yu.cs.com3800.stage5.RoundRobinLeader handleClient
+INFO: RR Received from client: public class HelloWorld
+Jan 04, 2024 12:05:58 PM edu.yu.cs.com3800.stage5.RoundRobinLeader handleClient
+INFO: RR Received from client: {
+Jan 04, 2024 12:05:58 PM edu.yu.cs.com3800.stage5.RoundRobinLeader handleClient
+INFO: RR Received from client:     public String run()
+Jan 04, 2024 12:05:58 PM edu.yu.cs.com3800.stage5.RoundRobinLeader handleClient
+INFO: RR Received from client:     {
+Jan 04, 2024 12:05:58 PM edu.yu.cs.com3800.stage5.RoundRobinLeader handleClient
+INFO: RR Received from client:         return "Hello world! from code version 40";
+Jan 04, 2024 12:05:58 PM edu.yu.cs.com3800.stage5.RoundRobinLeader handleClient
+INFO: RR Received from client:     }
+Jan 04, 2024 12:05:58 PM edu.yu.cs.com3800.stage5.RoundRobinLeader handleClient
+INFO: RR Received from client: }
+Jan 04, 2024 12:05:58 PM edu.yu.cs.com3800.stage5.RoundRobinLeader handleClient
+INFO: RR Received from client: 
+Jan 04, 2024 12:05:58 PM edu.yu.cs.com3800.stage5.RoundRobinLeader handleClient
+INFO: handleing in round robin: package edu.yu.cs.fall2019.com3800.stage1;
+
+public class HelloWorld
+{
+    public String run()
+    {
+        return "Hello world! from code version 40";
+    }
+}
+
+
+Jan 04, 2024 12:05:58 PM edu.yu.cs.com3800.stage5.RoundRobinLeader handleClient
+INFO: RR client socket /127.0.0.1 on port 50700
+Jan 04, 2024 12:05:58 PM edu.yu.cs.com3800.stage5.RoundRobinLeader handleClient
+INFO: RR waiting for completed work

@@ -1,0 +1,30 @@
+Jan 03, 2024 8:06:08 PM edu.yu.cs.com3800.stage5.RoundRobinLeader <init>
+INFO: in the constructor
+Jan 03, 2024 8:06:08 PM edu.yu.cs.com3800.stage5.RoundRobinLeader run
+INFO: The leader round robin has started
+Jan 03, 2024 8:06:08 PM edu.yu.cs.com3800.stage5.RoundRobinLeader run
+INFO: RR map [localhost/127.0.0.1:8020, localhost/127.0.0.1:8040, localhost/127.0.0.1:8050, localhost/127.0.0.1:8060, localhost/127.0.0.1:8070, localhost/127.0.0.1:8080]
+Jan 03, 2024 8:06:08 PM edu.yu.cs.com3800.stage5.RoundRobinLeader run
+INFO: RR my port 8030
+Jan 03, 2024 8:06:09 PM edu.yu.cs.com3800.stage5.RoundRobinLeader run
+INFO: problem in round robin handler
+Jan 03, 2024 8:06:12 PM edu.yu.cs.com3800.stage5.RoundRobinLeader <init>
+INFO: in the constructor
+Jan 03, 2024 8:06:12 PM edu.yu.cs.com3800.stage5.RoundRobinLeader run
+INFO: The leader round robin has started
+Jan 03, 2024 8:06:12 PM edu.yu.cs.com3800.stage5.RoundRobinLeader run
+INFO: RR map [localhost/127.0.0.1:8020, localhost/127.0.0.1:8030, localhost/127.0.0.1:8040, localhost/127.0.0.1:8050, localhost/127.0.0.1:8060, localhost/127.0.0.1:8080]
+Jan 03, 2024 8:06:12 PM edu.yu.cs.com3800.stage5.RoundRobinLeader run
+INFO: RR my port 8070
+Jan 03, 2024 8:06:13 PM edu.yu.cs.com3800.stage5.RoundRobinLeader run
+INFO: problem in round robin handler
+Jan 04, 2024 8:06:47 AM edu.yu.cs.com3800.stage5.RoundRobinLeader <init>
+INFO: in the constructor
+Jan 04, 2024 8:06:47 AM edu.yu.cs.com3800.stage5.RoundRobinLeader run
+INFO: The leader round robin has started
+Jan 04, 2024 8:06:47 AM edu.yu.cs.com3800.stage5.RoundRobinLeader run
+INFO: RR map [localhost/127.0.0.1:8020, localhost/127.0.0.1:8040, localhost/127.0.0.1:8050, localhost/127.0.0.1:8060, localhost/127.0.0.1:8070, localhost/127.0.0.1:8080]
+Jan 04, 2024 8:06:47 AM edu.yu.cs.com3800.stage5.RoundRobinLeader run
+INFO: RR my port 8030
+Jan 04, 2024 8:06:47 AM edu.yu.cs.com3800.stage5.RoundRobinLeader run
+INFO: problem in round robin handler

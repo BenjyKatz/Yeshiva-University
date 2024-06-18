@@ -1,0 +1,1 @@
+Server on port 8010 whose ID is 0 has the following ID as its leader: 7 and its state is OBSERVER

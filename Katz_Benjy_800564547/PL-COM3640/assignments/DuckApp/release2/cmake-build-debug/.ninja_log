@@ -1,0 +1,16 @@
+# ninja log v5
+5	736	1672006070603511849	CMakeFiles/release2.dir/Duck.cpp.o	e1ee0a224b58f6db
+3	615	1672006104060424963	CMakeFiles/release2.dir/Behaviors.cpp.o	72b4a429ce2f4690
+2	629	1672006135029796675	CMakeFiles/release2.dir/Duck.cpp.o	e1ee0a224b58f6db
+2	614	1672006199022596923	CMakeFiles/release2.dir/Duck.cpp.o	e1ee0a224b58f6db
+2	685	1672006360839276077	CMakeFiles/release2.dir/Duck.cpp.o	e1ee0a224b58f6db
+3	700	1672006360854145840	CMakeFiles/release2.dir/Behaviors.cpp.o	72b4a429ce2f4690
+5	799	1672010914766419694	CMakeFiles/release2.dir/Behaviors.cpp.o	72b4a429ce2f4690
+4	802	1672010914773302651	CMakeFiles/release2.dir/Duck.cpp.o	e1ee0a224b58f6db
+3	622	1672011011663494963	CMakeFiles/release2.dir/Duck.cpp.o	e1ee0a224b58f6db
+3	629	1672011011668819264	CMakeFiles/release2.dir/AllMyDucks.cpp.o	1d7d46cab3e4aed0
+2	575	1672011336574270899	CMakeFiles/release2.dir/AllMyDucks.cpp.o	1d7d46cab3e4aed0
+2	579	1672011336579796727	CMakeFiles/release2.dir/main.cpp.o	8c1b778bbbf66beb
+579	688	1672011336691817928	release2	93c72eec62ff8afc
+2	734	1672011425769444579	CMakeFiles/release2.dir/AllMyDucks.cpp.o	1d7d46cab3e4aed0
+734	813	1672011425851640165	release2	93c72eec62ff8afc
